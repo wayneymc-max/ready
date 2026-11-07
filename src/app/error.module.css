@@ -1,0 +1,185 @@
+.errorPage {
+    min-height: 100vh;
+    min-height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: #f8fafc;
+}
+
+.errorContainer {
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 55px 40px;
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(15, 23, 42, 0.05);
+}
+
+/* Error icon */
+
+.iconWrapper {
+    width: 76px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff1f2;
+    margin-bottom: 26px;
+}
+
+.errorIcon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #e11d48;
+    border-radius: 50%;
+    color: #e11d48;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+/* Text */
+
+.errorLabel {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #e11d48;
+    margin-bottom: 12px;
+}
+
+.title {
+    color: #172033;
+    font-size: clamp(25px, 5vw, 34px);
+    font-weight: 750;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.description {
+    max-width: 390px;
+    margin: 16px 0 30px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Buttons */
+
+.actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.retryButton,
+.homeButton {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.retryButton {
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.retryButton:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.homeButton {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #e2e8f0;
+}
+
+.homeButton:hover {
+    background: #e2e8f0;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 32px;
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.footerDot {
+    width: 7px;
+    height: 7px;
+    background: #22c55e;
+    border-radius: 50%;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    .errorContainer {
+        padding: 45px 30px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    .errorPage {
+        padding: 16px;
+    }
+
+    .errorContainer {
+        padding: 38px 22px;
+        border-radius: 16px;
+    }
+
+    .iconWrapper {
+        width: 66px;
+        height: 66px;
+        margin-bottom: 22px;
+    }
+
+    .errorIcon {
+        width: 37px;
+        height: 37px;
+        font-size: 23px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin: 14px 0 25px;
+    }
+
+    .retryButton,
+    .homeButton {
+        min-height: 46px;
+    }
+}

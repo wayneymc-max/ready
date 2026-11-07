@@ -1,0 +1,154 @@
+.notFoundPage {
+    min-height: 100vh;
+    min-height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: #f8fafc;
+}
+
+.container {
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 40px;
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(15, 23, 42, 0.05);
+}
+
+/* Icon */
+
+.iconWrapper {
+    width: 76px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #eff6ff;
+    color: #2563eb;
+    margin-bottom: 24px;
+}
+
+/* Text */
+
+.label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+.errorCode {
+    font-size: clamp(75px, 15vw, 110px);
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -6px;
+    color: #dbeafe;
+    margin: 0 0 12px;
+}
+
+.title {
+    font-size: clamp(23px, 5vw, 32px);
+    font-weight: 750;
+    letter-spacing: -0.8px;
+    color: #172033;
+    margin: 0;
+}
+
+.description {
+    max-width: 390px;
+    margin: 15px 0 28px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Home button */
+
+.homeButton {
+    width: 100%;
+    max-width: 280px;
+    min-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 9px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.homeButton:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 32px;
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.footerDot {
+    width: 7px;
+    height: 7px;
+    background: #22c55e;
+    border-radius: 50%;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 42px 30px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    .notFoundPage {
+        padding: 16px;
+    }
+
+    .container {
+        padding: 38px 22px;
+        border-radius: 16px;
+    }
+
+    .iconWrapper {
+        width: 66px;
+        height: 66px;
+    }
+
+    .errorCode {
+        letter-spacing: -4px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .homeButton {
+        min-height: 46px;
+    }
+}

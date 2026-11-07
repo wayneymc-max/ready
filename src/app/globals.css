@@ -1,0 +1,28 @@
+:root {}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {}
+
+body {
+  min-height: 100dvh;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+a,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+
+}

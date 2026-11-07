@@ -1,0 +1,428 @@
+.dialogueOverlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.35);
+}
+
+/* MAIN DIALOGUE */
+
+.dialogueContainer {
+    position: relative;
+
+    width: 100%;
+    max-width: 700px;
+    max-height: 82dvh;
+
+    overflow-y: auto;
+
+    background: #fff;
+    border-radius: 24px 24px 0 0;
+
+    animation: slideUp 0.25s ease-out;
+}
+
+/* HANDLE */
+
+.dragHandle {
+    width: 40px;
+    height: 5px;
+
+    margin: 11px auto 18px;
+
+    background: #bdbdbd;
+    border-radius: 20px;
+}
+
+/* HEADER */
+
+.dialogueHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding: 0 25px 20px;
+
+    border-bottom: 1px solid #e5e5eb;
+}
+
+.levelSquare {
+    width: 65px;
+    height: 65px;
+
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.low {
+    background: #218500;
+    color: #218500;
+}
+
+.medium {
+    background: #f0a500;
+    color: #a66b00;
+}
+
+.high {
+    background: #e00000;
+    color: #c90000;
+}
+
+.dialogueTitle {
+    margin: 0;
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #202127;
+}
+
+.closeButton {
+    margin-left: auto;
+    padding: 0;
+
+    border: none;
+    background: transparent;
+
+    color: #555;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* BODY */
+
+.dialogueBody {
+    padding: 23px 25px 30px;
+    background: #f8f8fa;
+}
+
+/* FOOD INFORMATION CARD */
+
+.infoCard {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    padding: 20px;
+
+    background: #fff;
+    border: 1px solid #e1e2e8;
+    border-radius: 17px;
+}
+
+.dialogueImage {
+    width: 105px;
+    height: 105px;
+
+    flex-shrink: 0;
+
+    object-fit: contain;
+
+    border: 1px solid #e0e0e0;
+    border-radius: 14px;
+
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+}
+
+.foodInfo {
+    flex: 1;
+    min-width: 0;
+}
+
+.levelBadge {
+    display: inline-block;
+
+    padding: 6px 12px;
+    border-radius: 25px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.levelBadge.high {
+    background: #ffe1e1;
+}
+
+.levelBadge.medium {
+    background: #fff0d2;
+}
+
+.levelBadge.low {
+    background: #e3f4df;
+}
+
+.levelDescription {
+    margin: 12px 0 0;
+
+    font-size: 16px;
+    line-height: 1.45;
+    color: #4c5561;
+}
+
+.levelDescription strong,
+.foodNote strong {
+    font-weight: 700;
+}
+
+.foodNote {
+    margin: 16px 0 0;
+
+    font-size: 15px;
+    line-height: 1.45;
+    color: #4c5561;
+}
+
+/* SERVING SIZES */
+
+.servingsContainer {
+    margin-top: 18px;
+    padding: 19px;
+
+    background: #fff;
+    border: 1px solid #e1e2e8;
+    border-radius: 17px;
+}
+
+.servingsTitle {
+    margin: 0 0 15px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #252a32;
+}
+
+.servingsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.servingRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    padding: 11px 12px;
+
+    background: #f8f8fa;
+    border-radius: 10px;
+}
+
+.servingLabel {
+    font-size: 13px;
+    font-weight: 700;
+    min-width: 68px;
+}
+
+.lowServing {
+    color: #218500;
+}
+
+.mediumServing {
+    color: #b77b00;
+}
+
+.highServing {
+    color: #d00000;
+}
+
+.servingValue {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444b55;
+    text-align: right;
+}
+
+/* ANIMATION */
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* TABLET */
+
+@media (min-width: 600px) {
+    .dialogueHeader {
+        padding: 0 35px 25px;
+    }
+
+    .dialogueBody {
+        padding: 28px 35px;
+    }
+
+    .dialogueImage {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* DESKTOP */
+
+@media (min-width: 900px) {
+    .dialogueOverlay {
+        align-items: center;
+        padding: 25px;
+    }
+
+    .dialogueContainer {
+        border-radius: 24px;
+        max-height: 80vh;
+    }
+}
+
+/* PHONES */
+
+@media (max-width: 599px) {
+    .dialogueContainer {
+        max-height: 78dvh;
+        border-radius: 21px 21px 0 0;
+    }
+
+    .dragHandle {
+        width: 36px;
+        margin: 9px auto 15px;
+    }
+
+    .dialogueHeader {
+        gap: 12px;
+        padding: 0 17px 16px;
+    }
+
+    .levelSquare {
+        width: 49px;
+        height: 49px;
+        border-radius: 8px;
+    }
+
+    .dialogueTitle {
+        font-size: 24px;
+    }
+
+    .closeButton {
+        font-size: 26px;
+    }
+
+    .dialogueBody {
+        padding: 15px 12px 22px;
+    }
+
+    .infoCard {
+        gap: 12px;
+        padding: 13px;
+        border-radius: 13px;
+    }
+
+    .dialogueImage {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .levelBadge {
+        padding: 5px 9px;
+        font-size: 12px;
+    }
+
+    .levelDescription {
+        margin-top: 9px;
+        font-size: 13px;
+        line-height: 1.45;
+    }
+
+    .foodNote {
+        margin-top: 12px;
+        font-size: 12px;
+        line-height: 1.45;
+    }
+
+    /* SERVINGS ON PHONE */
+
+    .servingsContainer {
+        margin-top: 13px;
+        padding: 15px;
+        border-radius: 13px;
+    }
+
+    .servingsTitle {
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+
+    .servingsList {
+        gap: 8px;
+    }
+
+    .servingRow {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .servingLabel {
+        font-size: 12px;
+        min-width: 58px;
+    }
+
+    .servingValue {
+        font-size: 12px;
+    }
+}
+
+/* SMALL PHONES */
+
+@media (max-width: 380px) {
+    .dialogueHeader {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .levelSquare {
+        width: 44px;
+        height: 44px;
+    }
+
+    .dialogueTitle {
+        font-size: 21px;
+    }
+
+    .dialogueBody {
+        padding: 12px 9px 18px;
+    }
+
+    .infoCard {
+        gap: 9px;
+        padding: 10px;
+    }
+
+    .dialogueImage {
+        width: 60px;
+        height: 60px;
+    }
+
+    .levelDescription {
+        font-size: 12px;
+    }
+
+    .foodNote {
+        font-size: 11px;
+    }
+
+    .servingsContainer {
+        padding: 12px;
+    }
+
+    .servingValue {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,341 @@
+.homeContainer {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 28px 16px 50px;
+    color: #26352c;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    text-align: center;
+    padding: 55px 18px 45px;
+    background: #f1f7f1;
+    border-radius: 20px;
+    margin-bottom: 45px;
+}
+
+.heroLabel,
+.sectionLabel {
+    display: inline-block;
+    color: #43865b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.hero h1 {
+    max-width: 750px;
+    margin: 0 auto 20px;
+    font-size: clamp(30px, 7vw, 52px);
+    line-height: 1.2;
+    font-weight: 750;
+    letter-spacing: -1.5px;
+    color: #263c2d;
+}
+
+.hero h1 span {
+    display: block;
+    color: #4c9563;
+}
+
+.heroDescription {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #647268;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   FODMAP INTRODUCTION
+========================= */
+
+.introSection {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 15px 5px 45px;
+}
+
+.introSection h2,
+.categoriesHeading h2 {
+    color: #2e4435;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+
+.introSection p {
+    color: #626e66;
+    font-size: 14px;
+    line-height: 1.9;
+    margin: 0 0 15px;
+}
+
+
+/* =========================
+   FOOD CATEGORIES
+========================= */
+
+.categoriesSection {
+    padding: 35px 0 45px;
+    border-top: 1px solid #e8eee9;
+}
+
+.categoriesHeading {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+.categoriesHeading .sectionLabel {
+    margin-bottom: 10px;
+}
+
+.categoriesHeading h2 {
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.categoriesHeading p {
+    color: #6b776e;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.categoriesContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.categoryButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    padding: 12px 10px;
+
+    background: #ffffff;
+    border: 1px solid #e1e9e2;
+    border-radius: 12px;
+
+    color: #3d5945;
+    font-size: 13px;
+    font-weight: 650;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+@media (hover: hover) {
+    .categoryButton:hover {
+        background: #f0f7f0;
+        border-color: #8ab99a;
+        color: #267344;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 14px rgba(40, 100, 60, 0.08);
+    }
+}
+
+.categoryButton:focus-visible {
+    outline: 3px solid #8ab99a;
+    outline-offset: 3px;
+}
+
+.categoryButton:active {
+    transform: scale(0.97);
+}
+
+
+/* =========================
+   DISCLAIMER
+========================= */
+
+.disclaimer {
+    margin-top: 20px;
+    padding: 22px 18px;
+    background: #f7f8f5;
+    border: 1px solid #e8ebe4;
+    border-left: 4px solid #91ad91;
+    border-radius: 10px;
+}
+
+.disclaimer h3 {
+    color: #435747;
+    font-size: 15px;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.disclaimer p {
+    color: #747c74;
+    font-size: 12px;
+    line-height: 1.9;
+    margin: 0;
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 360px) {
+    .homeContainer {
+        padding: 18px 12px 35px;
+    }
+
+    .hero {
+        padding: 40px 13px;
+        border-radius: 15px;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    .heroDescription {
+        font-size: 13px;
+    }
+
+    .categoriesContainer {
+        gap: 8px;
+    }
+
+    .categoryButton {
+        font-size: 12px;
+        padding: 10px 6px;
+    }
+}
+
+
+/* =========================
+   TABLETS
+========================= */
+
+@media (min-width: 600px) {
+    .homeContainer {
+        padding: 35px 25px 60px;
+    }
+
+    .hero {
+        padding: 75px 35px;
+        margin-bottom: 55px;
+    }
+
+    .heroDescription {
+        font-size: 16px;
+    }
+
+    .introSection h2,
+    .categoriesHeading h2 {
+        font-size: 29px;
+    }
+
+    .introSection p,
+    .categoriesHeading p {
+        font-size: 15px;
+    }
+
+    .categoriesContainer {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .categoryButton {
+        min-height: 55px;
+        font-size: 14px;
+    }
+
+    .disclaimer {
+        padding: 25px;
+    }
+
+    .disclaimer p {
+        font-size: 13px;
+    }
+}
+
+
+/* =========================
+   LAPTOPS
+========================= */
+
+@media (min-width: 900px) {
+    .homeContainer {
+        padding: 45px 35px 70px;
+    }
+
+    .hero {
+        padding: 90px 40px;
+    }
+
+    .categoriesContainer {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .categoryButton {
+        min-height: 58px;
+        font-size: 15px;
+    }
+
+    .introSection {
+        padding-bottom: 55px;
+    }
+}
+
+
+/* =========================
+   LARGE DESKTOP
+========================= */
+
+@media (min-width: 1200px) {
+    .homeContainer {
+        padding: 55px 40px 80px;
+    }
+
+    .categoriesContainer {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .hero {
+        padding: 100px 50px;
+    }
+
+    .disclaimer {
+        margin-top: 30px;
+    }
+}
+
+
+/* =========================
+   REDUCED MOTION
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+    .categoryButton {
+        transition: none;
+    }
+
+    .categoryButton:hover,
+    .categoryButton:active {
+        transform: none;
+    }
+}

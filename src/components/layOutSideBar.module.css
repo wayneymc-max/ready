@@ -1,0 +1,434 @@
+/* ==============================
+   MAIN NAVBAR
+============================== */
+
+.navBarContainer {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    box-sizing: border-box;
+    gap: 14px;
+    padding: 12px;
+
+    background: #ffffff;
+    border-bottom: 1px solid #e8eee9;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.04);
+}
+
+
+/* ==============================
+   LOGO AND SEARCH
+============================== */
+
+.logoSearchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    gap: 0;
+}
+
+/* Hidden on phones */
+
+.logoLink {
+    display: none;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.searchWrapper {
+    width: 100%;
+    max-width: 450px;
+}
+
+
+/* ==============================
+   CATEGORY NAVIGATION
+============================== */
+
+.sidebarButtonsContainer {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    gap: 9px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 3px 2px 8px;
+
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.sidebarButtonsContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebarButtons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 10px 15px;
+
+    border: 1px solid #e1e9e2;
+    border-radius: 30px;
+
+    background: #ffffff;
+    color: #3d5945;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 650;
+
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: nowrap;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.sidebarButtons:hover {
+    background: #f0f7f0;
+    border-color: #8ab99a;
+    color: #267344;
+}
+
+.sidebarButtonsActive {
+    background: #263c2d;
+    border-color: #263c2d;
+    color: #ffffff;
+}
+
+
+/* ==============================
+   FILTER MENU POSITION
+============================== */
+
+.buttonShowSideBarContainer {
+    position: fixed;
+    right: 14px;
+    bottom: 25px;
+    z-index: 40;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.buttonShowSideBarContainerOpen {
+    padding: 12px;
+    border: 1px solid #e5ebe5;
+    border-radius: 18px;
+
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ==============================
+   FILTER BUTTONS
+============================== */
+
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transform: translateY(10px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+}
+
+.filterContainerOpen {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    transform: translateY(0);
+}
+
+.filterButtonLow,
+.filterButtonMedium,
+.filterButtonHigh,
+.filterButtonLowSelected,
+.filterButtonMediumSelected,
+.filterButtonHighSelected {
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+}
+
+.filterButtonLow,
+.filterButtonLowSelected {
+    background: rgba(34, 197, 94, 0.2);
+}
+
+.filterButtonLowSelected {
+    background: rgb(34, 197, 94);
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+}
+
+.filterButtonMedium,
+.filterButtonMediumSelected {
+    background: rgba(245, 158, 11, 0.2);
+}
+
+.filterButtonMediumSelected {
+    background: rgb(245, 158, 11);
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
+}
+
+.filterButtonHigh,
+.filterButtonHighSelected {
+    background: rgba(239, 68, 68, 0.2);
+}
+
+.filterButtonHighSelected {
+    background: rgb(239, 68, 68);
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+}
+
+.clearFilterButton {
+    border: none;
+    border-radius: 10px;
+    padding: 9px 12px;
+
+    background: #263c2d;
+    color: white;
+
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* ==============================
+   FILTER TOGGLE BUTTON
+============================== */
+
+.buttonShowSideBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    border: none;
+    border-radius: 14px;
+
+    background: #263c2d;
+    color: white;
+
+    font-size: 22px;
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(38, 60, 45, 0.2);
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.buttonShowSideBar:hover {
+    background: #3e6549;
+}
+
+.buttonShowSideBar:active {
+    transform: scale(0.95);
+}
+
+
+/* ==============================
+   SMALL PHONES
+============================== */
+
+@media (max-width: 360px) {
+    .navBarContainer {
+        padding: 8px;
+        gap: 10px;
+    }
+
+    .sidebarButtons {
+        padding: 9px 12px;
+        font-size: 11px;
+    }
+}
+
+
+/* ==============================
+   TABLETS AND SMALL LAPTOPS
+   LOGO STARTS AT 768px
+============================== */
+
+@media (min-width: 768px) {
+    .navBarContainer {
+        align-self: flex-start;
+
+        width: 320px;
+        max-width: 400px;
+        min-width: 280px;
+
+        min-height: 100vh;
+        height: fit-content;
+
+        padding: 24px 18px;
+        gap: 25px;
+
+        border-right: 1px solid #e8eee9;
+        border-bottom: none;
+    }
+
+    .logoSearchContainer {
+        gap: 18px;
+    }
+
+    .logoLink {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        max-width: 220px;
+        flex-shrink: 0;
+    }
+
+    .logo {
+        width: 100%;
+        max-height: 95px;
+    }
+
+    .searchWrapper {
+        max-width: 100%;
+    }
+
+    .sidebarButtonsContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: visible;
+        gap: 10px;
+    }
+
+    .sidebarButtons {
+        flex: 1 1 auto;
+        min-height: 44px;
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .buttonShowSideBarContainer {
+        position: static;
+
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .buttonShowSideBarContainerOpen {
+        padding: 0;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .filterContainer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        order: 1;
+    }
+}
+
+
+/* ==============================
+   LARGE DESKTOP
+============================== */
+
+@media (min-width: 1200px) {
+    .navBarContainer {
+        width: 370px;
+        padding: 30px 24px;
+        gap: 28px;
+    }
+
+    .logoLink {
+        max-width: 250px;
+    }
+
+    .logo {
+        max-height: 115px;
+    }
+
+    .sidebarButtons {
+        font-size: 13px;
+        padding: 11px 14px;
+    }
+}
+
+
+/* ==============================
+   ACCESSIBILITY
+============================== */
+
+.logoLink:focus-visible,
+.sidebarButtons:focus-visible,
+.buttonShowSideBar:focus-visible,
+.clearFilterButton:focus-visible,
+.filterContainer button:focus-visible {
+    outline: 3px solid #86b997;
+    outline-offset: 3px;
+}
+
+
+/* ==============================
+   REDUCED MOTION
+============================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .sidebarButtons,
+    .filterButtonLow,
+    .filterButtonMedium,
+    .filterButtonHigh,
+    .buttonShowSideBar,
+    .filterContainer {
+        transition: none;
+    }
+}
