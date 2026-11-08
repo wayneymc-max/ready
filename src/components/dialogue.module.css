@@ -2,7 +2,7 @@
     position: fixed;
     inset: 0;
     z-index: 1000;
-
+    overscroll-behavior: none;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -20,7 +20,8 @@
     max-height: 82dvh;
 
     overflow-y: auto;
-
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
     background: #fff;
     border-radius: 24px 24px 0 0;
 
@@ -425,4 +426,49 @@
     .servingValue {
         font-size: 11px;
     }
+}
+
+/* IMPROVED FOOD DESCRIPTION */
+
+.foodNote {
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #4c5561;
+}
+
+.noteTitle {
+    display: block;
+    margin-bottom: 6px;
+    color: #252a32;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.foodNote p {
+    margin: 0;
+}
+
+/* MISSING SERVING INFORMATION */
+
+.noServingInfo {
+    margin: 0;
+    padding: 12px;
+    background: #f8f8fa;
+    border-radius: 10px;
+    color: #68717c;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* FOOD INFORMATION DISCLAIMER */
+
+.disclaimer {
+    margin: 16px 0 0;
+    padding: 12px 14px;
+    background: #f0f3ee;
+    border-radius: 10px;
+    color: #687366;
+    font-size: 12px;
+    line-height: 1.55;
 }

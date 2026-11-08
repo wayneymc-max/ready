@@ -16,5 +16,10 @@ export default async function InterceptedFoodPage({ params }) {
         notFound();
     }
 
-    return <Dialogue currentFood={currentFood} />;
+    return (
+        <Dialogue
+            currentFood={currentFood}
+            isIntercepted={true}
+        />
+    );
 }
