@@ -28,6 +28,12 @@ export const metadata = {
     "IBS symptoms",
   ],
 
+  verification: {
+    other: {
+      "google-adsense-account": "ca-pub-9820571283008425",
+    },
+  },
+
   openGraph: {
     title: "FODMAP Food Guide",
     description:
