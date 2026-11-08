@@ -1,6 +1,6 @@
+
 import Link from "next/link";
-import styles from './page.module.css'
-import Image from "next/image";
+import styles from "./page.module.css";
 
 const foods = [
   "fruits",
@@ -12,16 +12,14 @@ const foods = [
   "oils-fats",
   "nuts-seeds",
   "snacks",
-  "condiments-spreads"
+  "condiments-spreads",
 ];
 
 export default function HomePage() {
-
   return (
     <main className={styles.homeContainer}>
 
-
-      {/* Welcome section */}
+      {/* Hero section */}
       <section className={styles.hero}>
         <span className={styles.heroLabel}>
           YOUR GUIDE TO FODMAP FOODS
@@ -42,7 +40,6 @@ export default function HomePage() {
 
       {/* Categories */}
       <section className={styles.categoriesSection}>
-
         <div className={styles.categoriesHeading}>
           <span className={styles.sectionLabel}>
             EXPLORE OUR FOOD GUIDE
@@ -58,7 +55,7 @@ export default function HomePage() {
         </div>
 
         <div className={styles.categoriesContainer}>
-          {foods.map(food => (
+          {foods.map((food) => (
             <Link
               href={`/category/${food}`}
               key={food}
@@ -68,10 +65,14 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
-
       </section>
-      {/* What is FODMAP */}
+
+      {/* What are FODMAPs */}
       <section className={styles.introSection}>
+        <span className={styles.sectionLabel}>
+          LEARN THE BASICS
+        </span>
+
         <h2>What are FODMAPs?</h2>
 
         <p>
@@ -90,10 +91,6 @@ export default function HomePage() {
           reintroduction, and personalization.
         </p>
       </section>
-
-
-
-
 
       {/* Disclaimer */}
       <section className={styles.disclaimer}>
@@ -116,6 +113,38 @@ export default function HomePage() {
           </em>
         </p>
       </section>
+
+      {/* Footer */}
+      <footer className={styles.footer}>
+        <div className={styles.footerContent}>
+          <div className={styles.footerBrand}>
+            <Link href="/" className={styles.footerLogo}>
+              FODMAP Guide
+            </Link>
+
+            <p>
+              Making FODMAP food information easier
+              to explore and understand.
+            </p>
+          </div>
+
+          <nav
+            className={styles.footerLinks}
+            aria-label="Footer navigation"
+          >
+            <Link href="/about">About Us</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/contact">Contact Us</Link>
+          </nav>
+        </div>
+
+        <div className={styles.footerBottom}>
+          <p>
+            © {new Date().getFullYear()} FODMAP Guide.
+            All rights reserved.
+          </p>
+        </div>
+      </footer>
 
     </main>
   );

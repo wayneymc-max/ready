@@ -13,14 +13,13 @@
 
     width: 100%;
     box-sizing: border-box;
-    gap: 14px;
-    padding: 12px;
+    gap: 12px;
+    padding: 10px 12px;
 
     background: #ffffff;
     border-bottom: 1px solid #e8eee9;
     box-shadow: 0 5px 20px rgba(15, 23, 42, 0.04);
 }
-
 
 /* ==============================
    LOGO AND SEARCH
@@ -28,32 +27,36 @@
 
 .logoSearchContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    gap: 12px;
+}
+
+.logoLink {
+    display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 100%;
-    gap: 0;
-}
-
-/* Hidden on phones */
-
-.logoLink {
-    display: none;
+    width: 100px;
+    flex-shrink: 0;
 }
 
 .logo {
     display: block;
     width: 100%;
     height: auto;
+    max-height: 50px;
     object-fit: contain;
 }
 
 .searchWrapper {
-    width: 100%;
+    flex: 1;
+    min-width: 0;
     max-width: 450px;
 }
-
 
 /* ==============================
    CATEGORY NAVIGATION
@@ -69,7 +72,7 @@
     overflow-x: auto;
     overflow-y: hidden;
 
-    padding: 3px 2px 8px;
+    padding: 2px 2px 6px;
 
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
@@ -85,8 +88,8 @@
     justify-content: center;
 
     flex: 0 0 auto;
-    min-height: 42px;
-    padding: 10px 15px;
+    min-height: 40px;
+    padding: 9px 14px;
 
     border: 1px solid #e1e9e2;
     border-radius: 30px;
@@ -121,7 +124,6 @@
     color: #ffffff;
 }
 
-
 /* ==============================
    FILTER MENU POSITION
 ============================== */
@@ -146,7 +148,6 @@
     background: #ffffff;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
-
 
 /* ==============================
    FILTER BUTTONS
@@ -237,7 +238,6 @@
     cursor: pointer;
 }
 
-
 /* ==============================
    FILTER TOGGLE BUTTON
 ============================== */
@@ -274,7 +274,6 @@
     transform: scale(0.95);
 }
 
-
 /* ==============================
    SMALL PHONES
 ============================== */
@@ -282,19 +281,30 @@
 @media (max-width: 360px) {
     .navBarContainer {
         padding: 8px;
-        gap: 10px;
+        gap: 9px;
+    }
+
+    .logoLink {
+        width: 78px;
+    }
+
+    .logo {
+        max-height: 42px;
+    }
+
+    .logoSearchContainer {
+        gap: 8px;
     }
 
     .sidebarButtons {
-        padding: 9px 12px;
+        padding: 8px 11px;
         font-size: 11px;
+        min-height: 38px;
     }
 }
 
-
 /* ==============================
    TABLETS AND SMALL LAPTOPS
-   LOGO STARTS AT 768px
 ============================== */
 
 @media (min-width: 768px) {
@@ -316,25 +326,21 @@
     }
 
     .logoSearchContainer {
+        flex-direction: column;
         gap: 18px;
     }
 
     .logoLink {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
         width: 100%;
         max-width: 220px;
-        flex-shrink: 0;
     }
 
     .logo {
-        width: 100%;
         max-height: 95px;
     }
 
     .searchWrapper {
+        width: 100%;
         max-width: 100%;
     }
 
@@ -376,7 +382,6 @@
     }
 }
 
-
 /* ==============================
    LARGE DESKTOP
 ============================== */
@@ -402,7 +407,6 @@
     }
 }
 
-
 /* ==============================
    ACCESSIBILITY
 ============================== */
@@ -415,7 +419,6 @@
     outline: 3px solid #86b997;
     outline-offset: 3px;
 }
-
 
 /* ==============================
    REDUCED MOTION
