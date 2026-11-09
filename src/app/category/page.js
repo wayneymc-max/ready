@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import OverAll from "@/components/overAll";
 import styles from "./page.module.css";
@@ -19,6 +18,11 @@ const foods = [
 export default function Home() {
     return (
         <main className={styles.pageContainer}>
+
+            <h1 className={styles.categoriesTitle}>
+                Our Food Categories
+            </h1>
+
             <OverAll foods={foods} />
 
             <footer className={styles.footer}>
