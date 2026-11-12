@@ -109,7 +109,10 @@ export default function Dialogue({
                         id="food-title"
                         className={styles.dialogueTitle}
                     >
-                        {currentFood.name}
+                        {currentFood.name.toLowerCase().endsWith('s')
+                            ? 'Are'
+                            : 'Is'}{' '}
+                        {currentFood.name} high in FODMAPs?
                     </h2>
 
                     <button

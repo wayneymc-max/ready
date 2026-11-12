@@ -6,7 +6,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
     background: rgba(0, 0, 0, 0.35);
 }
 
@@ -24,7 +23,6 @@
     -webkit-overflow-scrolling: touch;
     background: #fff;
     border-radius: 24px 24px 0 0;
-
     animation: slideUp 0.25s ease-out;
 }
 
@@ -77,10 +75,10 @@
 
 .dialogueTitle {
     margin: 0;
-
     font-size: 30px;
     font-weight: 700;
     color: #202127;
+    line-height: 1.25;
 }
 
 .closeButton {
@@ -308,7 +306,8 @@
     }
 
     .dialogueTitle {
-        font-size: 24px;
+        font-size: 21px;
+        line-height: 1.3;
     }
 
     .closeButton {
@@ -394,7 +393,8 @@
     }
 
     .dialogueTitle {
-        font-size: 21px;
+        font-size: 24px;
+        line-height: 1.3;
     }
 
     .dialogueBody {
