@@ -9,6 +9,8 @@ const geistSans = Geist({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://fodmapguide.com"),
+
   title: {
     default: "FODMAP Food Guide",
     template: "%s | FODMAP Food Guide",
@@ -40,24 +42,24 @@ export const metadata = {
     description:
       "Explore FODMAP foods, serving sizes, and food information.",
     type: "website",
+    url: "https://fodmapguide.com",
+    siteName: "FODMAP Food Guide",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <body className={geistSans.className}>
+        {children}
+
         <Script
           id="adsense"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9820571283008425"
           crossOrigin="anonymous"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
         />
-      </head>
-
-      <body className={geistSans.className}>
-        {children}
       </body>
     </html>
   );
