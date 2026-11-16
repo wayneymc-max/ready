@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import styles from "./page.module.css";
 
+
 export async function generateMetadata({ params }) {
     const { category, slug } = await params;
 
@@ -13,21 +14,36 @@ export async function generateMetadata({ params }) {
     );
 
     if (!currentFood) {
-        return {};
+        return {
+            title: "Food Not Found",
+        };
     }
 
-    const canonicalUrl = `https://fodmapguide.com/category/${category}/${slug}`;
+    const canonicalUrl =
+        `/category/${category}/${slug}`;
+
+    const description =
+        currentFood.description ||
+        `Learn about ${currentFood.name}, including its FODMAP level and serving information.`;
 
     return {
-        title: `${currentFood.name} | FODMAP Guide`,
-        description:
-            currentFood.description ||
-            `Learn about the FODMAP level and serving information for ${currentFood.name}.`,
+        title: currentFood.name,
+        description,
+
         alternates: {
             canonical: canonicalUrl,
         },
+
+        openGraph: {
+            title: `${currentFood.name} | FODMAP Food Guide`,
+            description,
+            url: canonicalUrl,
+            type: "article",
+            siteName: "FODMAP Food Guide",
+        },
     };
 }
+
 
 export default async function FoodPage({ params }) {
     const { category, slug } = await params;

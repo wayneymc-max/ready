@@ -1,42 +1,39 @@
 
-import foods from '@/data/foods.json';
+import foods from "@/data/foods.json";
 
-const BASE_URL = 'https://fodmapguide.com';
+const BASE_URL = "https://fodmapguide.com";
 
 export default function sitemap() {
     const categories = [
-        'fruits',
-        'vegetables',
-        'bread-cereals',
-        'proteins',
-        'dairies',
-        'drinks',
-        'oils-fats',
-        'nuts-seeds',
-        'snacks',
-        'condiments-spreads',
+        "fruits",
+        "vegetables",
+        "bread-cereals",
+        "proteins",
+        "dairies",
+        "drinks",
+        "oils-fats",
+        "nuts-seeds",
+        "snacks",
+        "condiments-spreads",
     ];
 
-    const categoryPages = categories.map((category) => ({
-        url: `${BASE_URL}/category/${category}`,
-        lastModified: new Date(),
-    }));
+    const urls = [
+        BASE_URL,
+        `${BASE_URL}/category`,
 
-    const foodPages = foods.map((food) => ({
-        url: `${BASE_URL}/category/${food.category}/${food.slug}`,
-        lastModified: new Date(),
-    }));
+        ...categories.map(
+            (category) =>
+                `${BASE_URL}/category/${category}`
+        ),
 
-    return [
-        {
-            url: BASE_URL,
-            lastModified: new Date(),
-        },
-        {
-            url: `${BASE_URL}/category`,
-            lastModified: new Date(),
-        },
-        ...categoryPages,
-        ...foodPages,
+        ...foods.map(
+            (food) =>
+                `${BASE_URL}/category/${food.category}/${food.slug}`
+        ),
     ];
+
+    // Prevent duplicate URLs in the sitemap.
+    return [...new Set(urls)].map((url) => ({
+        url,
+    }));
 }

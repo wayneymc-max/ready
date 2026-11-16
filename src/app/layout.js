@@ -17,9 +17,13 @@ export const metadata = {
   },
 
   description:
-    "Explore a food guide with FODMAP information, food categories, serving sizes, and helpful details for understanding low, medium, and high FODMAP foods.",
+    "Explore FODMAP foods, serving sizes, food categories, and helpful information about low, medium, and high FODMAP foods.",
 
   applicationName: "FODMAP Food Guide",
+
+  alternates: {
+    canonical: "/",
+  },
 
   keywords: [
     "FODMAP food guide",
@@ -42,7 +46,7 @@ export const metadata = {
     description:
       "Explore FODMAP foods, serving sizes, and food information.",
     type: "website",
-    url: "https://fodmapguide.com",
+    url: "https://fodmapguide.com/",
     siteName: "FODMAP Food Guide",
   },
 };
