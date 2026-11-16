@@ -14,7 +14,14 @@ const foods = [
     "snacks",
     "condiments-spreads",
 ];
-
+export const metadata = {
+    title: "FODMAP Food Categories",
+    description:
+        "Explore FODMAP food categories, including fruits, vegetables, grains, proteins, dairy, drinks, and more.",
+    alternates: {
+        canonical: "/category",
+    },
+};
 export default function Home() {
     return (
         <main className={styles.pageContainer}>
