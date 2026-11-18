@@ -7,7 +7,6 @@ export default function CategoryLayout({ children, modal }) {
         <div className={styles.layoutContainer}>
             <SideBar />
             {children}
-            {modal}
         </div>
     );
 }

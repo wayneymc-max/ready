@@ -1,43 +1,338 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: #ffffff;
+    color: #303b34;
+}
+
+/* NAVIGATION */
+
+.topNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 9px 20px;
+    border-bottom: 1px solid #edf1ed;
+    background: #ffffff;
+}
+
+.homeLink,
+.directoryLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: #53645a;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.homeLink:hover,
+.directoryLink:hover {
+    color: #245b3c;
+}
+
+.navLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* HERO */
+
+.hero {
+    padding: 65px 24px 60px;
+    text-align: center;
+    background:
+        radial-gradient(circle at 90% 15%, rgba(188, 218, 190, 0.35), transparent 35%),
+        linear-gradient(135deg, #f0f7f0, #f8fbf7);
+    border-bottom: 1px solid #e7eee7;
+}
+
+.eyebrow {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #43805c;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.hero h1 {
+    margin: 0 0 20px;
+    color: #263d30;
+    font-size: clamp(2.1rem, 5vw, 3.3rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+}
+
+.hero p {
+    max-width: 780px;
+    margin: 0 auto;
+    color: #53645a;
+    font-size: 1.04rem;
+    line-height: 1.9;
+}
+
+/* MAIN CONTENT */
+
+.content {
+    width: 100%;
     max-width: 900px;
-    margin: 50px auto;
-    padding: 40px;
-    background: #fff;
-    color: #333;
+    margin: 0 auto;
+    padding: 35px 25px 65px;
+}
+
+.contentSection {
+    padding: 32px 0;
+    border-bottom: 1px solid #e9eee8;
+}
+
+.contentSection h2 {
+    margin: 0 0 18px;
+    color: #263d30;
+    font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+    line-height: 1.4;
+}
+
+.contentSection p {
+    margin: 0 0 16px;
+    color: #59685f;
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.contentSection p:last-child {
+    margin-bottom: 0;
+}
+
+/* FEATURE LIST */
+
+.featureList {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 22px 0;
+    padding-left: 24px;
+}
+
+.featureList li {
+    padding-left: 5px;
+    color: #59685f;
+    font-size: 0.97rem;
     line-height: 1.8;
 }
 
-.container h1 {
-    font-size: 2.2rem;
+.featureList li::marker {
+    color: #43805c;
+}
+
+.featureList strong {
+    color: #315b3e;
+}
+
+/* LINKS */
+
+.contentLink {
+    display: inline-block;
+    margin-top: 10px;
+    color: #34744b;
     font-weight: 700;
-    margin-bottom: 24px;
-    color: #222;
+    text-decoration: none;
 }
 
-.container h2 {
-    font-size: 1.35rem;
+.contentLink:hover {
+    color: #205b36;
+    text-decoration: underline;
+}
+
+/* CONTACT SECTION */
+
+.contactSection {
+    margin-top: 35px;
+    padding: 30px;
+    background: #f0f7f1;
+    border: 1px solid #dcebdd;
+    border-radius: 15px;
+}
+
+.contactSection h2 {
+    margin: 0 0 13px;
+    color: #263d30;
+    font-size: 1.5rem;
+}
+
+.contactSection p {
+    margin: 0 0 20px;
+    color: #59685f;
+    font-size: 0.96rem;
+    line-height: 1.8;
+}
+
+.contactButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 19px;
+    background: #245b3c;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
     font-weight: 600;
-    margin-top: 32px;
-    margin-bottom: 10px;
-    color: #222;
+    text-decoration: none;
+    transition: background 0.2s ease;
 }
 
-.container p {
-    font-size: 1rem;
-    margin-bottom: 16px;
+.contactButton:hover {
+    background: #17472d;
 }
 
-@media (max-width: 768px) {
-    .container {
-        margin: 20px auto;
-        padding: 24px 18px;
+/* DISCLAIMER */
+
+.disclaimer {
+    width: calc(100% - 50px);
+    max-width: 900px;
+    margin: 0 auto 65px;
+    padding: 25px 28px;
+    background: #fffaf0;
+    border: 1px solid #f0e3c5;
+    border-radius: 13px;
+}
+
+.disclaimer h2 {
+    margin: 0 0 12px;
+    color: #70572a;
+    font-size: 1.2rem;
+}
+
+.disclaimer p {
+    margin: 0;
+    color: #74684f;
+    font-size: 0.93rem;
+    line-height: 1.85;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    padding: 45px 8% 20px;
+    background: #263d30;
+    color: #ffffff;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+.footerBrand {
+    max-width: 350px;
+}
+
+.footerLogo {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footerBrand p {
+    margin: 0;
+    color: #c4d3c8;
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+.footerLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 8px;
+}
+
+.footerLinks a {
+    color: #e0eae3;
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+.footerLinks a:hover {
+    color: #a9d1b4;
+    text-decoration: underline;
+}
+
+.footerBottom {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #496052;
+    color: #c4d3c8;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+    .hero {
+        padding: 45px 19px;
     }
 
-    .container h1 {
-        font-size: 1.8rem;
+    .hero p {
+        font-size: 0.94rem;
+        line-height: 1.8;
     }
 
-    .container h2 {
-        font-size: 1.2rem;
+    .content {
+        padding: 20px 20px 45px;
+    }
+
+    .contentSection {
+        padding: 26px 0;
+    }
+
+    .contentSection p {
+        font-size: 0.94rem;
+    }
+
+    .featureList li {
+        font-size: 0.92rem;
+    }
+
+    .contactSection {
+        padding: 23px 19px;
+    }
+
+    .disclaimer {
+        width: calc(100% - 32px);
+        margin-bottom: 40px;
+        padding: 21px 18px;
+    }
+
+    .footer {
+        padding: 35px 22px 18px;
+    }
+
+    .footerContent {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footerLinks {
+        flex-direction: column;
+        gap: 15px;
     }
 }

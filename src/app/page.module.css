@@ -273,3 +273,133 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Complete food directory section */
+
+.directorySection {
+    width: 100%;
+    max-width: 1100px;
+    margin: 65px auto;
+    padding: 42px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 45px;
+    align-items: center;
+    background: #f0f7f1;
+    border: 1px solid #dcebdd;
+    border-radius: 22px;
+}
+
+.directoryContent h2 {
+    margin: 12px 0 18px;
+    color: #183d2b;
+    font-size: clamp(25px, 3vw, 34px);
+    line-height: 1.25;
+}
+
+.directoryContent>p {
+    color: #53645a;
+    font-size: 15px;
+    line-height: 1.85;
+    margin-bottom: 14px;
+}
+
+.directoryButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 14px 21px;
+    border-radius: 9px;
+    background: #245b3c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.directoryButton:hover {
+    background: #17472d;
+    transform: translateY(-2px);
+}
+
+.directoryHighlights {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.directoryHighlight {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 19px;
+    background: #fff;
+    border: 1px solid #e2ece3;
+    border-radius: 13px;
+}
+
+.highlightNumber {
+    flex-shrink: 0;
+    color: #4b8b60;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.directoryHighlight h3 {
+    margin: 0 0 5px;
+    color: #244b34;
+    font-size: 15px;
+}
+
+.directoryHighlight p {
+    margin: 0;
+    color: #68766d;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.textLink {
+    display: inline-block;
+    margin-top: 10px;
+    color: #286441;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.textLink:hover {
+    text-decoration: underline;
+}
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+    .directorySection {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        margin: 40px auto;
+        padding: 25px 20px;
+        border-radius: 16px;
+    }
+
+    .directoryContent h2 {
+        font-size: 26px;
+    }
+
+    .directoryButton {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .directorySection {
+        padding: 22px 16px;
+    }
+
+    .directoryHighlight {
+        padding: 15px;
+    }
+}

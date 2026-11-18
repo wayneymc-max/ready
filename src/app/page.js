@@ -14,7 +14,14 @@ const foods = [
   "snacks",
   "condiments-spreads",
 ];
-
+export const metadata = {
+  title: "FODMAP Guide | Low FODMAP Food Guide",
+  description:
+    "Explore a food guide with FODMAP classifications, serving-size information, and practical ingredient guidance.",
+  alternates: {
+    canonical: "https://fodmapguide.com",
+  },
+};
 export default function HomePage() {
   return (
     <main className={styles.homeContainer}>
@@ -67,6 +74,66 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Visit the complete food directory */}
+      <section className={styles.directorySection}>
+        <div className={styles.directoryContent}>
+          <span className={styles.sectionLabel}>
+            YOUR NEXT STEP
+          </span>
+
+          <h2>Looking for more detailed food information?</h2>
+
+          <p>
+            Explore the complete FODMAP food directory to browse
+            all available food categories and individual food
+            profiles in one place. Each profile provides useful
+            information about the food, its FODMAP classification,
+            and available serving-size details.
+          </p>
+
+          <p>
+            You can also find answers to common questions about
+            FODMAPs, food serving sizes, how to use this guide,
+            and why this website should not replace professional
+            medical advice.
+          </p>
+
+          <Link
+            href="/category"
+            className={styles.directoryButton}
+          >
+            Explore the complete food guide
+            <span aria-hidden="true"> →</span>
+          </Link>
+        </div>
+
+        <div className={styles.directoryHighlights}>
+          <div className={styles.directoryHighlight}>
+            <span className={styles.highlightNumber}>01</span>
+            <div>
+              <h3>Browse food categories</h3>
+              <p>Explore different groups of everyday foods.</p>
+            </div>
+          </div>
+
+          <div className={styles.directoryHighlight}>
+            <span className={styles.highlightNumber}>02</span>
+            <div>
+              <h3>Understand food profiles</h3>
+              <p>Read descriptions and available FODMAP information.</p>
+            </div>
+          </div>
+
+          <div className={styles.directoryHighlight}>
+            <span className={styles.highlightNumber}>03</span>
+            <div>
+              <h3>Find helpful answers</h3>
+              <p>Read our frequently asked questions and guide information.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What are FODMAPs */}
       <section className={styles.introSection}>
         <span className={styles.sectionLabel}>
@@ -90,6 +157,18 @@ export default function HomePage() {
           It involves a structured process of food restriction,
           reintroduction, and personalization.
         </p>
+
+        <p>
+          Learning about FODMAPs can help you better understand
+          food ingredients, portion information, and the
+          differences between individual foods. The information
+          in this guide is intended to support general learning,
+          not to determine an individual's dietary needs.
+        </p>
+
+        <Link href="/category" className={styles.textLink}>
+          Browse the FODMAP food directory →
+        </Link>
       </section>
 
       {/* Disclaimer */}
@@ -132,6 +211,7 @@ export default function HomePage() {
             className={styles.footerLinks}
             aria-label="Footer navigation"
           >
+            <Link href="/category">Food Directory</Link>
             <Link href="/about">About Us</Link>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/contact">Contact Us</Link>

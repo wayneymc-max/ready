@@ -1,0 +1,3679 @@
+{
+    "2-minute noodles": {
+        "commonUses": [
+            "Quick lunch meals",
+            "Budget-friendly student dinners",
+            "Stir-fry base ingredients"
+        ],
+        "ingredientAwareness": "Instant seasoning packets frequently hide concentrated onion and garlic powder, alongside wheat and added sweeteners."
+    },
+    "A2 Milk": {
+        "commonUses": [
+            "Coffee creamer",
+            "Breakfast cereal base",
+            "Baking and cooking"
+        ],
+        "ingredientAwareness": "A2 protein profiles do not mean the milk is lactose-free; check exact labels unless it specifically states lactose-free processing."
+    },
+    "Acai powder": {
+        "commonUses": [
+            "Smoothie bowls",
+            "Protein shakes",
+            "Health supplement drinks"
+        ],
+        "ingredientAwareness": "Watch out for commercial blends containing hidden sweeteners, dried fruits, or inulin fiber mixes."
+    },
+    "Agave syrup": {
+        "commonUses": [
+            "Liquid sweetener for teas",
+            "Baking substitute",
+            "Drizzle over pancakes"
+        ],
+        "ingredientAwareness": "Agave syrup is exceptionally high in excess fructose, making it a concentrated FODMAP source even in small amounts."
+    },
+    "Aioli": {
+        "commonUses": [
+            "Burger spreads",
+            "Dip for fries and wedges",
+            "Sandwich dressings"
+        ],
+        "ingredientAwareness": "Traditional aioli relies heavily on raw garlic, which is a potent source of fructans."
+    },
+    "Alfalfa sprouts": {
+        "commonUses": [
+            "Salad toppings",
+            "Sandwich and wrap garnishes",
+            "Gourmet burger additions"
+        ],
+        "ingredientAwareness": "Generally well tolerated in standard portions as a low-FODMAP fresh green addition."
+    },
+    "Almond butter": {
+        "commonUses": [
+            "Toast spreads",
+            "Smoothie thickeners",
+            "Baking energy bites"
+        ],
+        "ingredientAwareness": "Check whether the brand is 100% nuts or blended with high-FODMAP sweeteners like honey or chicory root fiber."
+    },
+    "Almond meal": {
+        "commonUses": [
+            "Gluten-free baking",
+            "Low-carb crusts and cakes",
+            "Breading alternatives"
+        ],
+        "ingredientAwareness": "Because nuts are ground down into a dense flour, portion sizes concentrate the FODMAP load compared to whole nuts."
+    },
+    "Almond milk": {
+        "commonUses": [
+            "Morning coffee and tea",
+            "Cereal bowl base",
+            "Smoothies and baking"
+        ],
+        "ingredientAwareness": "Commercial brands vary widely; inspect ingredient lists for added gums, inulin, or sweeteners."
+    },
+    "Almonds": {
+        "commonUses": [
+            "On-the-go snacking",
+            "Trail mixes",
+            "Salad and dessert crunches"
+        ],
+        "ingredientAwareness": "Portion control is strict with almonds; GOS and excess sorbitol accumulate quickly beyond standard serving limits."
+    },
+    "Amaranth flour": {
+        "commonUses": [
+            "Ancient grain gluten-free baking",
+            "Flatbread mixes",
+            "Pancake batters"
+        ],
+        "ingredientAwareness": "Often used in specialty gluten-free blends, but high-volume portions can contribute significant fructans."
+    },
+    "apple": {
+        "commonUses": [
+            "Fresh snacking",
+            "Apple juice and cider",
+            "Baking in pies and crumbles",
+            "Applesauce"
+        ],
+        "ingredientAwareness": "Frequently found in commercial fruit juice concentrates, mixed berry jams, and baked food fillings."
+    },
+    "apple-granny-smith": {
+        "commonUses": [
+            "Tart baking",
+            "Fresh sliced snacks",
+            "Salad additions"
+        ],
+        "ingredientAwareness": "Specific fruit varieties vary in sugar content; Granny Smith apples contain elevated excess fructose and sorbitol."
+    },
+    "apple-cider-vinegar": {
+        "commonUses": [
+            "Salad dressings",
+            "Marinade acidifiers",
+            "Health tonics"
+        ],
+        "ingredientAwareness": "Used in minor culinary quantities, meaning natural fermentation typically keeps standard portions low FODMAP."
+    },
+    "apple-juice": {
+        "commonUses": [
+            "Beverage refreshments",
+            "Fruit punch blending",
+            "Natural sweetener bases"
+        ],
+        "ingredientAwareness": "Juicing concentrates fruit sugars rapidly, delivering a heavy dose of excess fructose in liquid form."
+    },
+    "apricot-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Pastry and tart glazes",
+            "Cake fillings"
+        ],
+        "ingredientAwareness": "Stone fruits are naturally high in sorbitol and fructose; commercial jams concentrate these sugars further."
+    },
+    "apricot-sauce": {
+        "commonUses": [
+            "Meat glazes",
+            "Dessert toppings",
+            "Sweet and sour style dips"
+        ],
+        "ingredientAwareness": "Check labels for hidden high-fructose corn syrup, honey, or added fruit purees."
+    },
+    "apricots": {
+        "commonUses": [
+            "Fresh summer snacking",
+            "Fruit platters",
+            "Dessert garnishes"
+        ],
+        "ingredientAwareness": "Fresh stone fruits contain high levels of polyols (sorbitol) which can trigger gut distress in sensitive individuals."
+    },
+    "apricots-canned": {
+        "commonUses": [
+            "Baking fruit cakes",
+            "Dessert toppings",
+            "Pudding accompaniments"
+        ],
+        "ingredientAwareness": "Canning syrups can leach fruit sugars; check whether they are packed in water, fruit juice, or heavy syrup."
+    },
+    "artichokes": {
+        "commonUses": [
+            "Gourmet pizza toppings",
+            "Antipasto platters",
+            "Salad additions"
+        ],
+        "ingredientAwareness": "Artichokes are among the most potent natural sources of fructans and should be strictly avoided during elimination phases."
+    },
+    "asafoetida-powder": {
+        "commonUses": [
+            "Indian low-FODMAP cooking",
+            "Savory spice rubs",
+            "Onion and garlic substitute"
+        ],
+        "ingredientAwareness": "A powerful resin spice that mimics the savory punch of onion and garlic without contributing fructans when used in pure form."
+    },
+    "asparagus": {
+        "commonUses": [
+            "Steamed dinner sides",
+            "Grilled vegetable platters",
+            "Risotto additions"
+        ],
+        "ingredientAwareness": "Asparagus contains high concentrations of fructans, particularly within the woody spear tips."
+    },
+    "aspartame": {
+        "commonUses": [
+            "Diet soda sweetening",
+            "Sugar-free gum",
+            "Low-calorie tabletop sweeteners"
+        ],
+        "ingredientAwareness": "An artificial sweetener that is chemically distinct from polyols, meaning it does not trigger FODMAP polyol pathways."
+    },
+    "avocado": {
+        "commonUses": [
+            "Guacamole",
+            "Salad toppings",
+            "Toast spreads",
+            "Slices in burgers"
+        ],
+        "ingredientAwareness": "Portion control is critical; commercial guacamole often contains hidden garlic and onion powder."
+    },
+    "avocado-oil": {
+        "commonUses": [
+            "High-heat pan searing",
+            "Salad dressings",
+            "Roasting vegetables"
+        ],
+        "ingredientAwareness": "Pure extracted plant oils contain zero carbohydrates and are naturally safe from all FODMAP groups."
+    },
+    "bacon": {
+        "commonUses": [
+            "Breakfast sides",
+            "Burger and salad toppings",
+            "Flavor bases for soups"
+        ],
+        "ingredientAwareness": "Always inspect curing ingredients for added honey, maple syrup, or garlic/onion flavoring powders."
+    },
+    "baked-beans": {
+        "commonUses": [
+            "Traditional cooked breakfasts",
+            "Barbecue sides",
+            "Toast toppers"
+        ],
+        "ingredientAwareness": "Standard baked beans are made from high-GOS legumes and tomato sauces frequently spiced with onion powder."
+    },
+    "baking-powder": {
+        "commonUses": [
+            "Cake rising",
+            "Pancake and muffin batters",
+            "Bread making"
+        ],
+        "ingredientAwareness": "Check filler ingredients to ensure wheat flour hasn't been used as an anti-caking agent in gluten-free recipes."
+    },
+    "balsamic-vinegar": {
+        "commonUses": [
+            "Salad vinaigrettes",
+            "Glazes for roasted vegetables",
+            "Bread dipping oils"
+        ],
+        "ingredientAwareness": "Aged grape must contains moderate amounts of excess fructose, making portion size important."
+    },
+    "banana": {
+        "commonUses": [
+            "Smoothies",
+            "Baking banana bread",
+            "Fresh eating",
+            "Oatmeal toppings"
+        ],
+        "ingredientAwareness": "Note that ripeness changes FODMAP levels significantly (firm/green bananas are low FODMAP, while ripe yellow/brown bananas are high)."
+    },
+    "banana-chips": {
+        "commonUses": [
+            "Trail mix snacking",
+            "Yogurt bowl crunches",
+            "Lunchbox snacks"
+        ],
+        "ingredientAwareness": "Dehydrated fruit snacks concentrate sugars quickly; check for added honey or sugar syrups during processing."
+    },
+    "barbecue-sauce": {
+        "commonUses": [
+            "Rib and chicken glazes",
+            "Burger toppings",
+            "Diarrhea-safe dipping sauces"
+        ],
+        "ingredientAwareness": "Conventional barbecue sauces are notorious for hidden garlic, onion, and high-fructose corn syrup."
+    },
+    "barley-flakes": {
+        "commonUses": [
+            "Porridge bowls",
+            "Muesli blends",
+            "Bakery item textures"
+        ],
+        "ingredientAwareness": "Barley is a direct source of fructans and gluten, placing it firmly in the high-FODMAP category."
+    },
+    "barley-flour": {
+        "commonUses": [
+            "Rustic bread baking",
+            "Soup thickening",
+            "Traditional pastry crusts"
+        ],
+        "ingredientAwareness": "Highly concentrated in fructans due to the milling of whole barley grains."
+    },
+    "basil": {
+        "commonUses": [
+            "Pesto sauce bases",
+            "Italian pasta garnishes",
+            "Caprese salads"
+        ],
+        "ingredientAwareness": "Fresh herbs like basil add robust flavor without contributing fermentable carbohydrates."
+    },
+    "basmati-rice": {
+        "commonUses": [
+            "Curry accompaniments",
+            "Rice bowls",
+            "Stir-fry sides"
+        ],
+        "ingredientAwareness": "White rice grains are exceptionally easy to digest and remain a reliable low-FODMAP staple."
+    },
+    "bay-leaves": {
+        "commonUses": [
+            "Slow-cooked stews",
+            "Broth and stock flavoring",
+            "Braised meat dishes"
+        ],
+        "ingredientAwareness": "Used as an aromatic infuser and removed before eating, adding zero FODMAP load."
+    },
+    "bean-sprouts": {
+        "commonUses": [
+            "Asian stir-fries",
+            "Pho noodle soup toppings",
+            "Fresh salad crunches"
+        ],
+        "ingredientAwareness": "Sprouting processes can alter oligosaccharide content, making mung bean sprouts surprisingly well tolerated in standard portions."
+    },
+    "beef": {
+        "commonUses": [
+            "Steaks and roasts",
+            "Ground beef stir-fries",
+            "Burger patties"
+        ],
+        "ingredientAwareness": "Pure unprocessed meat contains no carbohydrates, but pre-marinated cuts often contain garlic and onion."
+    },
+    "beer": {
+        "commonUses": [
+            "Social gatherings",
+            "Battered fish recipes",
+            "Stew flavor enhancements"
+        ],
+        "ingredientAwareness": "Brewed from grains like barley or wheat, though some gluten-removed or pure sorghum beers behave differently."
+    },
+    "beetroot": {
+        "commonUses": [
+            "Salad color and crunch",
+            "Pickled side dishes",
+            "Roasted vegetable medleys"
+        ],
+        "ingredientAwareness": "Contain high levels of fructans and oligosaccharides, requiring strict portion caps."
+    },
+    "bell-pepper-orange": {
+        "commonUses": [
+            "Fajita stir-fries",
+            "Raw veggie platters",
+            "Stuffed pepper dinners"
+        ],
+        "ingredientAwareness": "Color variations in capsicums affect their polyol profiles; orange peppers require mindful portion sizing."
+    },
+    "bell-pepper-red": {
+        "commonUses": [
+            "Roast vegetable mixes",
+            "Salad garnishes",
+            "Salsa ingredients"
+        ],
+        "ingredientAwareness": "Red bell peppers have established low-FODMAP serving thresholds, but larger quantities accumulate polyols."
+    },
+    "bell-pepper-yellow": {
+        "commonUses": [
+            "Sautéed vegetable medleys",
+            "Fresh crudités",
+            "Skewers"
+        ],
+        "ingredientAwareness": "Similar to other capsicums, monitoring portion weight helps prevent cumulative fructan/polyol intake."
+    },
+    "black-beans": {
+        "commonUses": [
+            "Mexican burrito bowls",
+            "Vegetarian bean burgers",
+            "Soups and stews"
+        ],
+        "ingredientAwareness": "Rich in GOS (galacto-oligosaccharides); canning and thorough rinsing can leach out some water-soluble FODMAPs."
+    },
+    "black-eyed-peas": {
+        "commonUses": [
+            "Southern soul food dishes",
+            "Rice and pea combinations",
+            "Salads"
+        ],
+        "ingredientAwareness": "A traditional legume packed with oligosaccharides that require careful portion management."
+    },
+    "black-pepper": {
+        "commonUses": [
+            "Universal seasoning",
+            "Marinade rubs",
+            "Soup and sauce finishing"
+        ],
+        "ingredientAwareness": "A standard spice that does not introduce fermentable carbohydrates into cooking."
+    },
+    "black-rice": {
+        "commonUses": [
+            "Gourmet grain bowls",
+            "Asian desserts",
+            "Colorful side dishes"
+        ],
+        "ingredientAwareness": "An anthocyanin-rich whole grain that is generally well tolerated when plain and unseasoned."
+    },
+    "blackberries": {
+        "commonUses": [
+            "Berry smoothie bowls",
+            "Fresh fruit toppings",
+            "Baking crumbles"
+        ],
+        "ingredientAwareness": "Particularly high in natural polyols (sorbitol) and excess fructose."
+    },
+    "blackberry-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Pastry fillings",
+            "Pancake toppings"
+        ],
+        "ingredientAwareness": "Concentrated berry fruits combined with added sugars create a high-FODMAP spread."
+    },
+    "blackcurrants": {
+        "commonUses": [
+            "Cordial drinks",
+            "Jams and jellies",
+            "Baking tarts"
+        ],
+        "ingredientAwareness": "Tart berries that concentrate polyols rapidly during cooking and reduction."
+    },
+    "blueberries": {
+        "commonUses": [
+            "Breakfast cereal toppings",
+            "Muffin baking",
+            "Fresh snacking"
+        ],
+        "ingredientAwareness": "One of the few berries tested to have generous low-FODMAP serving thresholds."
+    },
+    "blueberry-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Yogurt swirls",
+            "Sponge cake fillings"
+        ],
+        "ingredientAwareness": "Check labels for high-fructose corn syrup or apple juice concentrate blending."
+    },
+    "bok-choy": {
+        "commonUses": [
+            "Asian stir-fries",
+            "Noodle soup greens",
+            "Steamed side dishes"
+        ],
+        "ingredientAwareness": "A cruciferous green that offers a crisp texture and excellent low-FODMAP compatibility."
+    },
+    "borlotti-beans": {
+        "commonUses": [
+            "Italian bean stews",
+            "Casseroles",
+            "Pasta e fagioli"
+        ],
+        "ingredientAwareness": "Dense legume sources loaded with oligosaccharides; use strict portion controls."
+    },
+    "boysenberries": {
+        "commonUses": [
+            "Dessert compotes",
+            "Pie fillings",
+            "Ice cream swirls"
+        ],
+        "ingredientAwareness": "Hybrid berries containing moderate levels of excess fructose and sorbitol."
+    },
+    "brazil-nuts": {
+        "commonUses": [
+            "Nut mixes",
+            "Baking additions",
+            "Nutrient-dense snacking"
+        ],
+        "energyAwareness": "Exceptionally rich in selenium; moderate portions keep FODMAP loads low."
+    },
+    "brie": {
+        "commonUses": [
+            "Cheese boards",
+            "Basked brie appetizers",
+            "Sandwich layers"
+        ],
+        "ingredientAwareness": "Soft white-rind cheeses undergo a maturation process that breaks down virtually all lactose."
+    },
+    "broad-beans": {
+        "commonUses": [
+            "Spring vegetable salads",
+            "Purées",
+            "Stews"
+        ],
+        "ingredientAwareness": "Also known as fava beans, these legumes are very high in GOS."
+    },
+    "broccoli-heads": {
+        "commonUses": [
+            "Steamed vegetable sides",
+            "Stir-fries",
+            "Soup bases"
+        ],
+        "ingredientAwareness": "Broccoli florets have different FODMAP limits compared to stalks; heads are generally safer in controlled portions."
+    },
+    "broccolini-heads": {
+        "commonUses": [
+            "Gourmet roasted sides",
+            "Pasta toss-ins",
+            "Asian stir-fries"
+        ],
+        "ingredientAwareness": "The tender top flower clusters of broccolini tolerate lower FODMAP limits than the thick stems."
+    },
+    "broccolini-stalks": {
+        "commonUses": [
+            "Stir-fry stems",
+            "Steamed side dishes"
+        ],
+        "ingredientAwareness": "Stalks contain higher concentrations of sorbitol and require stricter portion monitoring."
+    },
+    "broccolini-whole": {
+        "commonUses": [
+            "Grilled whole spears",
+            "Roast vegetable platters"
+        ],
+        "ingredientAwareness": "Combining stems and heads alters the overall polyol profile; stick to tested serving weights."
+    },
+    "brown-rice": {
+        "commonUses": [
+            "Grain bowls",
+            "Healthy side dishes",
+            "Sushi alternatives"
+        ],
+        "ingredientAwareness": "Whole grain rice retains its outer bran layer, providing fiber without introducing wheat fructans."
+    },
+    "brown-rice-protein-powder": {
+        "commonUses": [
+            "Vegan protein shakes",
+            "Post-workout smoothies",
+            "Baking nutrition boosts"
+        ],
+        "ingredientAwareness": "Check ingredient lists for hidden artificial sweeteners, thickeners, or cacao additives."
+    },
+    "brown-sugar": {
+        "commonUses": [
+            "Baking cookies",
+            "Caramelizing sauces",
+            "Sweetening porridges"
+        ],
+        "ingredientAwareness": "Composed primarily of sucrose with molasses traces, making it chemically low FODMAP."
+    },
+    "brussels-sprouts": {
+        "commonUses": [
+            "Roasted holiday sides",
+            "Shredded salad slaws",
+            "Pan-fried bacon pairings"
+        ],
+        "ingredientAwareness": "Rich in fructans and various polyols; restrict serving sizes strictly during the elimination phase."
+    },
+    "buckwheat-flour": {
+        "commonUses": [
+            "Galettes and pancakes",
+            "Gluten-free baking",
+            "Soba noodle production"
+        ],
+        "ingredientAwareness": "Despite its misleading name, buckwheat is a pseudo-cereal completely unrelated to wheat and is low FODMAP."
+    },
+    "buckwheat-kernals": {
+        "commonUses": [
+            "Porridge bowls",
+            "Salad texture additions",
+            "Kasha side dishes"
+        ],
+        "ingredientAwareness": "Also known as karsa or groats, providing a nutritious, wheat-free alternative."
+    },
+    "buckwheat-noodles": {
+        "commonUses": [
+            "Japanese soba dishes",
+            "Cold noodle salads",
+            "Asian stir-fries"
+        ],
+        "ingredientAwareness": "Always check packaging: authentic 100% buckwheat noodles are low FODMAP, but many commercial brands blend in cheap wheat flour."
+    },
+    "butter": {
+        "commonUses": [
+            "Toast spreading",
+            "Baking fats",
+            "Pan-frying bases"
+        ],
+        "ingredientAwareness": "Because butter is almost entirely milk fat, the lactose is removed during churning, rendering it low FODMAP."
+    },
+    "buttermilk": {
+        "commonUses": [
+            "Pancake batter mixing",
+            "Fried chicken marinades",
+            "Ranch dressings"
+        ],
+        "ingredientAwareness": "Retains significant amounts of liquid dairy lactose and should be avoided unless explicitly lactose-free."
+    },
+    "butternut-pumpkin": {
+        "commonUses": [
+            "Roasted autumn soups",
+            "Pumpkin risottos",
+            "Pureed side dishes"
+        ],
+        "ingredientAwareness": "Contains mannitol; portion control is essential to avoid triggering IBS symptoms."
+    },
+    "button-squash": {
+        "commonUses": [
+            "Sautéed vegetable medleys",
+            "Stuffed summer squash",
+            "Roast platters"
+        ],
+        "ingredientAwareness": "A summer squash variety that maintains friendly low-FODMAP thresholds in standard portions."
+    },
+    "cabbage": {
+        "commonUses": [
+            "Coleslaw salads",
+            "Stir-fry bases",
+            "Soup fillings"
+        ],
+        "ingredientAwareness": "Different types of cabbage (common green vs. red vs. savoy) have distinct FODMAP breakdowns."
+    },
+    "cacao-powder": {
+        "commonUses": [
+            "Chocolate baking",
+            "Smoothies",
+            "Hot cocoa drinks"
+        ],
+        "ingredientAwareness": "Pure raw cacao is low FODMAP in standard baking quantities, but check for added milk powders or sugars."
+    },
+    "cake": {
+        "commonUses": [
+            "Birthday celebrations",
+            "Coffee shop treats",
+            "Dessert platters"
+        ],
+        "ingredientAwareness": "Traditional commercial cakes rely heavily on wheat flour, milk solids, and high-fructose fillings."
+    },
+    "camembert": {
+        "commonUses": [
+            "Cheese platters",
+            "Baked appetizers",
+            "Crackers and fruit pairings"
+        ],
+        "ingredientAwareness": "Aged soft cheese with minimal residual lactose due to surface-ripening fermentation."
+    },
+    "canned-beetroot": {
+        "commonUses": [
+            "Burger toppings",
+            "Salad bars",
+            "Quick pickled sides"
+        ],
+        "ingredientAwareness": "Canning and pickling liquids can absorb fructans; pay attention to drained portion guidelines."
+    },
+    "canned-chickpeas": {
+        "commonUses": [
+            "Quick hummus making",
+            "Salad protein additions",
+            "Curry bowls"
+        ],
+        "ingredientAwareness": "Water-soluble GOS leaches out into the canning liquid; rinsing canned chickpeas thoroughly makes them much easier to tolerate."
+    },
+    "canned-corn": {
+        "commonUses": [
+            "Salad additions",
+            "Mexican dishes",
+            "Soup ingredients"
+        ],
+        "ingredientAwareness": "Sweet corn changes behavior between fresh cobs (high) and canned portions due to processing shifts."
+    },
+    "canned-pumpkin": {
+        "commonUses": [
+            "Pumpkin pie baking",
+            "Soup thickening",
+            "Smoothie nutrition"
+        ],
+        "ingredientAwareness": "Plain 100% pure canned pumpkin requires portion watch due to moderate mannitol content."
+    },
+    "canned-tomatoes": {
+        "commonUses": [
+            "Pasta sauce bases",
+            "Chili and stew ingredients",
+            "Casserole liquids"
+        ],
+        "ingredientAwareness": "A pantry staple that works wonderfully for low-FODMAP Italian cooking when garlic and onion are excluded."
+    },
+    "cantaloupe": {
+        "commonUses": [
+            "Fresh fruit salads",
+            "Breakfast melon bowls",
+            "Prosciutto pairings"
+        ],
+        "ingredientAwareness": "Rockmelon/cantaloupe has reliable low-FODMAP serving sizes before polyols accumulate."
+    },
+    "cardamom": {
+        "commonUses": [
+            "Baking spice blends",
+            "Chai tea flavoring",
+            "Middle Eastern rice dishes"
+        ],
+        "ingredientAwareness": "An aromatic seed pod spice that adds depth without contributing FODMAPs."
+    },
+    "carrot": {
+        "commonUses": [
+            "Crudité platters",
+            "Soup bases",
+            "Roasted vegetable medleys"
+        ],
+        "ingredientAwareness": "Carrots are completely free of tested FODMAPs across all standard serving sizes."
+    },
+    "cashew-nuts": {
+        "commonUses": [
+            "Vegan cheese creation",
+            "Curry creaminess",
+            "Asian stir-fry crunches"
+        ],
+        "ingredientAwareness": "Cashews are high in both GOS and fructans; even small handfuls can trigger symptoms."
+    },
+    "cashews-activated": {
+        "commonUses": [
+            "Health food snacking",
+            "Raw dessert blending"
+        ],
+        "ingredientAwareness": "Soaking or activating nuts does not remove structural oligosaccharides like GOS from cashews."
+    },
+    "cassava": {
+        "commonUses": [
+            "Tapioca flour production",
+            "Boiled root vegetable sides",
+            "Flatbreads"
+        ],
+        "ingredientAwareness": "A starchy root tuber that serves as a fantastic grain-free base for sensitive digestive systems."
+    },
+    "cauliflower": {
+        "commonUses": [
+            "Cauliflower rice",
+            "Low-carb mash",
+            "Roasted vegetable dishes"
+        ],
+        "ingredientAwareness": "Extremely high in mannitol, making cauliflower a key vegetable to avoid during the strict elimination phase."
+    },
+    "cayenne-pepper": {
+        "commonUses": [
+            "Spicy chili seasonings",
+            "Rub blends",
+            "Heat enhancement"
+        ],
+        "ingredientAwareness": "Pure chili powders provide heat via capsaicin rather than fermentable carbohydrates."
+    },
+    "celery": {
+        "commonUses": [
+            "Mirepoix soup bases",
+            "Stuffed snack sticks",
+            "Stock flavoring"
+        ],
+        "ingredientAwareness": "Contains notable levels of mannitol, requiring strict limits in raw soups and salads."
+    },
+    "chamomile-tea": {
+        "commonUses": [
+            "Relaxing bedtime teas",
+            "Herbal infusions"
+        ],
+        "ingredientAwareness": "Despite being an herbal remedy, chamomile is surprisingly high FODMAP and can trigger bloating."
+    },
+    "cherry": {
+        "commonUses": [
+            "Fresh summer snacking",
+            "Pie toppings",
+            "Dessert garnishes"
+        ],
+        "ingredientAwareness": "Cherries concentrate massive amounts of sorbitol and excess fructose."
+    },
+    "cherry-tomatoes": {
+        "commonUses": [
+            "Salad bowl additions",
+            "Roasted snacking tomatoes",
+            "Pasta toss-ins"
+        ],
+        "ingredientAwareness": "Smaller tomato varieties concentrate fructose faster than standard beefsteak tomatoes."
+    },
+    "chia-seeds": {
+        "commonUses": [
+            "Chia puddings",
+            "Smoothie thickeners",
+            "Egg replacements in baking"
+        ],
+        "ingredientAwareness": "Packed with soluble fiber; generous portions are well tolerated and support gut motility."
+    },
+    "chicken": {
+        "commonUses": [
+            "Roast chicken dinners",
+            "Chicken breast salads",
+            "Soup broths"
+        ],
+        "ingredientAwareness": "Unprocessed poultry is completely safe; avoid pre-packaged injected meats containing garlic or broth solids."
+    },
+    "chickpea-flour": {
+        "commonUses": [
+            "Socca flatbreads",
+            "Gluten-free batter frying",
+            "Fritters"
+        ],
+        "ingredientAwareness": "Derived directly from ground legumes, concentrating high levels of GOS."
+    },
+    "chickpea-pasta": {
+        "commonUses": [
+            "High-protein pasta dinners",
+            "Gluten-free meal prep"
+        ],
+        "ingredientAwareness": "Because it is made entirely from pulse flour, serving sizes must be managed carefully."
+    },
+    "chicory-leaves": {
+        "commonUses": [
+            "Bitter salad greens",
+            "Endive alternatives"
+        ],
+        "ingredientAwareness": "Chicory leaves differ completely from chicory root (inulin), remaining low FODMAP in standard servings."
+    },
+    "chilli-green": {
+        "commonUses": [
+            "Salsa verde",
+            "Thai curry pastes",
+            "Spicy garnishes"
+        ],
+        "ingredientAwareness": "Fresh green chillies add vibrant heat without introducing excess fructans."
+    },
+    "chilli-red": {
+        "commonUses": [
+            "Asian stir-fries",
+            "Hot sauce bases",
+            "Fresh pepper slices"
+        ],
+        "ingredientAwareness": "Well tolerated in normal culinary amounts, though excessive heat can independently irritate sensitive gut linings."
+    },
+    "chilli-powder": {
+        "commonUses": [
+            "Mexican spice rubs",
+            "Chili con carne",
+            "Taco seasonings"
+        ],
+        "ingredientAwareness": "Ensure store-bought chili powder blends do not secretly incorporate onion or garlic powder fillers."
+    },
+    "chinese-cabbage": {
+        "commonUses": [
+            "Wombok stir-fries",
+            "Dumpling fillings",
+            "Asian slaws"
+        ],
+        "ingredientAwareness": "Wombok cabbage is a great crisp green with generous low-FODMAP allowances."
+    },
+    "chipotle-chilli-pepper-dried": {
+        "commonUses": [
+            "Smoky barbecue sauces",
+            "Mexican adobo pastes",
+            "Marinades"
+        ],
+        "ingredientAwareness": "Smoked and dried jalapeños provide deep smoky flavor; check for blended spice additives."
+    },
+    "chives": {
+        "commonUses": [
+            "Baked potato toppings",
+            "Soup garnishes",
+            "Herb cream cheese blends"
+        ],
+        "ingredientAwareness": "Unlike their pungent onion relatives, chives are uniquely low FODMAP and safe for flavoring."
+    },
+    "choc-chip-biscuit": {
+        "commonUses": [
+            "Lunchbox sweet treats",
+            "Coffee accompaniments"
+        ],
+        "ingredientAwareness": "Commercial cookies typically contain wheat flour, milk chocolate solids, and high-fructose sweeteners."
+    },
+    "choi-sum": {
+        "commonUses": [
+            "Stir-fried greens",
+            "Garlic-free Asian dishes"
+        ],
+        "ingredientAwareness": "A leafy green vegetable that provides a tender texture and safe FODMAP profile."
+    },
+    "choko": {
+        "commonUses": [
+            "Vegetable stews",
+            "Chayote squash baking"
+        ],
+        "ingredientAwareness": "A mild-flavored gourd that offers versatile culinary use with manageable polyol levels."
+    },
+    "chrysanthemum-tea": {
+        "commonUses": [
+            "Traditional herbal infusions",
+            "Cooling floral drinks"
+        ],
+        "ingredientAwareness": "Herbal flower teas can harbor unexpected FODMAP profiles; check cup concentration."
+    },
+    "cinnamon": {
+        "commonUses": [
+            "Baking spice",
+            "Porridge topping",
+            "Warm beverage flavoring"
+        ],
+        "ingredientAwareness": "A pure tree bark spice that introduces zero FODMAP concerns."
+    },
+    "cinnamon-sticks": {
+        "commonUses": [
+            "Mulled wine infusions",
+            "Curry simmering",
+            "Pot stews"
+        ],
+        "ingredientAwareness": "Whole spice quills infuse clean flavor without additives."
+    },
+    "cocoa-powder": {
+        "commonUses": [
+            "Chocolate cakes",
+            "Brownies",
+            "Mocha drinks"
+        ],
+        "ingredientAwareness": "Unsweetened cocoa powder is low FODMAP, making it a safe choice for chocolate lovers."
+    },
+    "coconut-cream": {
+        "commonUses": [
+            "Curry sauces",
+            "Vegan whipping cream",
+            "Dessert richness"
+        ],
+        "ingredientAwareness": "Rich in healthy fats; check cans for added thickeners like guar gum or carrageenan if sensitive."
+    },
+    "coconut-flour": {
+        "commonUses": [
+            "Paleo baking",
+            "Gluten-free pancake mixes",
+            "Muffin binding"
+        ],
+        "ingredientAwareness": "Extremely absorbent coconut fiber flour requires careful recipe adaptation."
+    },
+    "coconut-milk-drink": {
+        "commonUses": [
+            "Smoothie liquids",
+            "Cereal pouring",
+            "Coffee creaming"
+        ],
+        "ingredientAwareness": "Carton coconut milk drinks are heavily diluted compared to canned culinary coconut milk, affecting FODMAP thresholds."
+    },
+    "coconut-oil": {
+        "commonUses": [
+            "Baking fat",
+            "High-heat frying",
+            "Popcorn popping"
+        ],
+        "ingredientAwareness": "A 100% pure fat source containing no fermentable carbohydrates."
+    },
+    "coconut-sugar": {
+        "commonUses": [
+            "Low-glycemic baking",
+            "Coffee sweetening",
+            "Caramel sauces"
+        ],
+        "ingredientAwareness": "Derived from coconut palm sap, offering a caramel flavor profile while remaining lower on the glycemic index."
+    },
+    "coconut-water": {
+        "commonUses": [
+            "Post-workout hydration",
+            "Smoothie bases"
+        ],
+        "ingredientAwareness": "Unlike coconut oil or milk, coconut water naturally contains free sugars and polyols that accumulate quickly."
+    },
+    "coconut-yoghurt": {
+        "commonUses": [
+            "Dairy-free breakfast bowls",
+            "Smoothie creaminess",
+            "Curry dollops"
+        ],
+        "ingredientAwareness": "Dairy-free alternative; always inspect labels for added chicory root fiber (inulin) or fruit purees."
+    },
+    "coffee": {
+        "commonUses": [
+            "Morning wake-up brews",
+            "Espresso drinks",
+            "Tiramisu flavoring"
+        ],
+        "ingredientAwareness": "Black coffee is low FODMAP, but caffeine itself can stimulate gut motility independently in sensitive individuals."
+    },
+    "cola": {
+        "commonUses": [
+            "Soft drink refreshment",
+            "Mixer beverages"
+        ],
+        "ingredientAwareness": "Standard sugar-sweetened cola or high-fructose varieties require checking sweetener types (sugar vs. corn syrup)."
+    },
+    "collard-greens": {
+        "commonUses": [
+            "Southern braised greens",
+            "Healthy wrap substitutes"
+        ],
+        "ingredientAwareness": "Sturdy leafy greens that offer great fiber and broad low-FODMAP safety."
+    },
+    "coriander-fresh": {
+        "commonUses": [
+            "Mexican salsa garnishes",
+            "Asian curry toppings",
+            "Herb pestos"
+        ],
+        "ingredientAwareness": "Fresh cilantro leaves provide bright herbaceous flavor with no FODMAP risk."
+    },
+    "corn-bread": {
+        "commonUses": [
+            "Barbecue side dishes",
+            "Chili accompaniments"
+        ],
+        "ingredientAwareness": "Check whether commercial corn bread mixes blend in wheat flour or high-fructose sweeteners."
+    },
+    "corn-chips": {
+        "commonUses": [
+            "Guacamole dipping",
+            "Nacho nights",
+            "Snack bowls"
+        ],
+        "ingredientAwareness": "Simple corn, oil, and salt chips are naturally low FODMAP; check for hidden onion/garlic seasoning dust."
+    },
+    "corn-flakes-gf": {
+        "commonUses": [
+            "Breakfast cereal bowls",
+            "Crunchy chicken coatings"
+        ],
+        "ingredientAwareness": "Certified gluten-free corn flakes avoid hidden malt flavoring derived from barley."
+    },
+    "corn-pasta": {
+        "commonUses": [
+            "Gluten-free spaghetti dinners",
+            "Pasta bakes"
+        ],
+        "ingredientAwareness": "Provides a wonderful yellow-pasta texture that holds up well in hot dishes."
+    },
+    "corn-starch": {
+        "commonUses": [
+            "Gravy thickening",
+            "Soup silky finishes",
+            "Crispy coating flours"
+        ],
+        "ingredientAwareness": "Pure cornstarch is a refined carbohydrate containing zero FODMAPs."
+    },
+    "corn-thins": {
+        "commonUses": [
+            "Light snack crackers",
+            "Avocado toast bases"
+        ],
+        "ingredientAwareness": "Crispy popped corn cakes make an easy, fat-free snack option."
+    },
+    "cornflakes": {
+        "commonUses": [
+            "Breakfast cereals",
+            "Crispy dessert toppings"
+        ],
+        "ingredientAwareness": "Standard commercial cornflakes often use barley malt extract for flavoring, which introduces fructans."
+    },
+    "cornflour": {
+        "commonUses": [
+            "Baking binding",
+            "Sauce reduction thickening"
+        ],
+        "ingredientAwareness": "Interchangeable with cornstarch in most culinary applications."
+    },
+    "cornflour-sponge": {
+        "commonUses": [
+            "Traditional sponge cake baking"
+        ],
+        "ingredientAwareness": "Light cake structures built primarily from corn starch and eggs."
+    },
+    "cornichons": {
+        "commonUses": [
+            "Charcuterie board additions",
+            "Burger pickles",
+            "Deviled egg garnishes"
+        ],
+        "ingredientAwareness": "Tiny pickled cucumbers; ensure pickling brine is free of garlic cloves or onion flakes."
+    },
+    "cottage-cheese": {
+        "commonUses": [
+            "High-protein snack bowls",
+            "Lasagna fillings",
+            "Salad protein additions"
+        ],
+        "ingredientAwareness": "Contains dairy lactose; look specifically for lactose-free cottage cheese varieties."
+    },
+    "cous-cous": {
+        "commonUses": [
+            "Quick grain sides",
+            "Mediterranean salads",
+            "Tagine beds"
+        ],
+        "ingredientAwareness": "Traditional couscous is made from crushed durum wheat semolina, making it high in fructans."
+    },
+    "cow-s-milk": {
+        "commonUses": [
+            "Cereal pouring",
+            "Coffee creaming",
+            "Baking liquids"
+        ],
+        "ingredientAwareness": "Naturally high in lactose across all traditional formats (fresh, powdered, condensed)."
+    },
+    "crab": {
+        "commonUses": [
+            "Seafood dinners",
+            "Crab cake patties",
+            "Salad proteins"
+        ],
+        "ingredientAwareness": "Pure seafood is low FODMAP; verify pre-made crab cakes lack wheat fillers or seasoning spices."
+    },
+    "cranberries": {
+        "commonUses": [
+            "Holiday sauces",
+            "Dried trail mix additions",
+            "Juice blends"
+        ],
+        "ingredientAwareness": "Tart berries with moderate FODMAP levels that require portion tracking."
+    },
+    "cream": {
+        "commonUses": [
+            "Coffee whitening",
+            "Sauce enrichment",
+            "Dessert whipping"
+        ],
+        "ingredientAwareness": "Contains lactose; heavy whipping cream has lower lactose than standard milk, but portion limits still apply."
+    },
+    "cream-cheese": {
+        "commonUses": [
+            "Bagel spreads",
+            "Cheesecake baking",
+            "Frosting creation"
+        ],
+        "ingredientAwareness": "A soft fresh cheese containing moderate lactose; check portions carefully."
+    },
+    "creamy-pasta-sauce": {
+        "commonUses": [
+            "Fettuccine Alfredo",
+            "White sauce pasta dishes"
+        ],
+        "ingredientAwareness": "Commercial white sauces typically combine dairy cream with hidden garlic and onion powders."
+    },
+    "creme-fraiche": {
+        "commonUses": [
+            "Dolloping on soups",
+            "Sauce finishing",
+            "Pastry dollops"
+        ],
+        "ingredientAwareness": "A cultured thick cream with slightly lower lactose than standard heavy cream due to fermentation."
+    },
+    "croissants": {
+        "commonUses": [
+            "French breakfast pastries",
+            "Breakfast sandwiches"
+        ],
+        "ingredientAwareness": "Rich laminated pastries crafted from wheat flour and butter."
+    },
+    "crumpets": {
+        "commonUses": [
+            "Toasted buttered breakfast snacks"
+        ],
+        "ingredientAwareness": "Traditional yeast-risen wheat griddle cakes high in fructans."
+    },
+    "cucumber": {
+        "commonUses": [
+            "Salad slices",
+            "Infused water pitchers",
+            "Crudité trays"
+        ],
+        "ingredientAwareness": "Refreshing and hydrating, with exceptionally well-tolerated low-FODMAP boundaries."
+    },
+    "cumin": {
+        "commonUses": [
+            "Taco seasoning blends",
+            "Curry powders",
+            "Chili dishes"
+        ],
+        "ingredientAwareness": "An earthy seed spice that enhances savory depth safely."
+    },
+    "custard": {
+        "commonUses": [
+            "Dessert puddings",
+            "Tart fillings",
+            "Trifle layers"
+        ],
+        "ingredientAwareness": "Traditional dairy custards combine milk, cream, and eggs, resulting in high lactose content."
+    },
+    "dandelion-tea": {
+        "commonUses": [
+            "Herbal coffee substitutes",
+            "Detox teas"
+        ],
+        "ingredientAwareness": "Dandelion root is exceptionally high in inulin (fructans) and will trigger acute symptoms."
+    },
+    "dark-chocolate": {
+        "commonUses": [
+            "After-dinner treats",
+            "Baking chunks",
+            "Melted chocolate drizzles"
+        ],
+        "ingredientAwareness": "High-cocoa dark chocolates (70%+) have very little residual dairy and generous low-FODMAP serving sizes."
+    },
+    "dates": {
+        "commonUses": [
+            "Natural energy ball binders",
+            "Baking sweeteners",
+            "Middle Eastern snacking"
+        ],
+        "ingredientAwareness": "Dried dates concentrate massive amounts of excess fructose and sorbitol."
+    },
+    "decaf-coffee": {
+        "commonUses": [
+            "Evening coffee alternatives",
+            "Caffeine-free hot drinks"
+        ],
+        "ingredientAwareness": "Decaffeination processes remove caffeine, but the bean's chemical nature remains similar to regular coffee."
+    },
+    "dessert-wines": {
+        "commonUses": [
+            "After-dinner sipping",
+            "Port and sherry reductions"
+        ],
+        "ingredientAwareness": "Fortified sweet wines concentrate residual sugars and fermentation byproducts."
+    },
+    "diet-cola": {
+        "commonUses": [
+            "Sugar-free soft drink consumption"
+        ],
+        "ingredientAwareness": "Check artificial sweetener labels; avoid versions sweetened with polyols like sorbitol or mannitol."
+    },
+    "dragon-fruit": {
+        "commonUses": [
+            "Exotic fruit bowls",
+            "Smoothie color additions"
+        ],
+        "ingredientAwareness": "Red or white pitaya is a tropical fruit with fantastic low-FODMAP tolerance."
+    },
+    "dried-apple": {
+        "commonUses": [
+            "Hiking trail mixes",
+            "Lunchbox snacks"
+        ],
+        "ingredientAwareness": "Dehydration removes water, concentrating excess fructose and sorbitol into dense portions."
+    },
+    "dried-apricot": {
+        "commonUses": [
+            "Baking fruit breads",
+            "Snack platters"
+        ],
+        "ingredientAwareness": "Extremely high in polyols; even a single dried apricot can exceed safe thresholds."
+    },
+    "dried-currants": {
+        "commonUses": [
+            "Christmas puddings",
+            "Scone baking"
+        ],
+        "ingredientAwareness": "Tiny dried grapes that pack concentrated fructose into small serving sizes."
+    },
+    "dried-figs": {
+        "commonUses": [
+            "Cheese board pairings",
+            "Middle Eastern baking"
+        ],
+        "ingredientAwareness": "Figs are naturally loaded with excess fructose and fructans."
+    },
+    "dried-fruit-leathers": {
+        "commonUses": [
+            "Kids snack packs",
+            "On-the-go fruit bites"
+        ],
+        "ingredientAwareness": "Concentrated fruit purees that deliver heavy doses of fruit sugars."
+    },
+    "dried-mango": {
+        "commonUses": [
+            "Tropical snack strips",
+            "Trail mixes"
+        ],
+        "ingredientAwareness": "Mango sugars become highly concentrated during the drying process."
+    },
+    "dried-pears": {
+        "commonUses": [
+            "Dehydrated fruit platters"
+        ],
+        "ingredientAwareness": "Pears are naturally high in sorbitol; drying makes them potent FODMAP triggers."
+    },
+    "dried-pineapple": {
+        "commonUses": [
+            "Tropical baking",
+            "Snack mixes"
+        ],
+        "ingredientAwareness": "While fresh pineapple is low FODMAP, dried versions require careful portion tracking."
+    },
+    "durian": {
+        "commonUses": [
+            "Southeast Asian desserts",
+            "Specialty fruit tasting"
+        ],
+        "ingredientAwareness": "A pungent tropical fruit with surprising low-FODMAP tolerance in moderate portions."
+    },
+    "edam": {
+        "commonUses": [
+            "Cheese platters",
+            "Sandwich slices"
+        ],
+        "ingredientAwareness": "A semi-hard Dutch cheese with virtually zero residual lactose."
+    },
+    "edamame-beans": {
+        "commonUses": [
+            "Japanese appetizer pods",
+            "Salad protein boosts"
+        ],
+        "ingredientAwareness": "Young green soybeans contain moderate GOS levels, requiring portion watch."
+    },
+    "egg-noodles": {
+        "commonUses": [
+            "Chicken soup noodles",
+            "Stir-fry dishes"
+        ],
+        "ingredientAwareness": "Traditional egg noodles are crafted from wheat flour, making them high in fructans."
+    },
+    "eggplant": {
+        "commonUses": [
+            "Ratatouille",
+            "Eggplant parmesan",
+            "Roasted vegetable dips"
+        ],
+        "ingredientAwareness": "A versatile nightshade vegetable with generous low-FODMAP serving allowances."
+    },
+    "eggs": {
+        "commonUses": [
+            "Breakfast scrambles",
+            "Baking binding",
+            "Boiled egg snacks"
+        ],
+        "ingredientAwareness": "Eggs contain zero carbohydrates and are entirely free of FODMAPs."
+    },
+    "einkorn-flour": {
+        "commonUses": [
+            "Ancient grain artisan bread baking"
+        ],
+        "ingredientAwareness": "An ancient wheat variety with a simpler gluten structure, though it still contains fructans."
+    },
+    "endive": {
+        "commonUses": [
+            "Gourmet appetizer scoops",
+            "Bitter winter salads"
+        ],
+        "ingredientAwareness": "A crisp, slightly bitter chicory leaf family member that remains low FODMAP."
+    },
+    "feijoa": {
+        "commonUses": [
+            "Fresh autumn fruit eating",
+            "Feijoa jams"
+        ],
+        "ingredientAwareness": "Pineapple guava fruit that concentrates excess fructose and polyols."
+    },
+    "fennel-bulb-leaves": {
+        "commonUses": [
+            "Roasted fish beds",
+            "Shredded slaw salads"
+        ],
+        "ingredientAwareness": "Fennel bulb has established low-FODMAP serving sizes, offering an aniseed crunch."
+    },
+    "feta": {
+        "commonUses": [
+            "Greek salads",
+            "Mediterranean pastry fillings",
+            "Roasted vegetable toppings"
+        ],
+        "ingredientAwareness": "Brined sheep or goat milk cheese with minimal residual lactose content."
+    },
+    "fig": {
+        "commonUses": [
+            "Fresh cheese pairings",
+            "Tart toppings"
+        ],
+        "ingredientAwareness": "Fresh figs pack high levels of excess fructose and polyols."
+    },
+    "filo-pastry": {
+        "commonUses": [
+            "Spanakopita",
+            "Baklava pastry layers"
+        ],
+        "ingredientAwareness": "Thin wheat dough sheets high in fructans."
+    },
+    "firm-tofu": {
+        "commonUses": [
+            "Stir-fry cubes",
+            "Grilled protein bowls",
+            "Curry additions"
+        ],
+        "ingredientAwareness": "Pressing and firming tofu removes water-soluble oligosaccharides, making firm tofu much lower in FODMAPs than silken tofu."
+    },
+    "fish-all-types": {
+        "commonUses": [
+            "Seafood dinners",
+            "Fish tacos",
+            "Baked fish fillets"
+        ],
+        "ingredientAwareness": "Pure finfish and shellfish contain no carbohydrates or FODMAPs."
+    },
+    "fish-sauce": {
+        "commonUses": [
+            "Asian soup seasoning",
+            "Stir-fry umami boosts",
+            "Dipping sauces"
+        ],
+        "ingredientAwareness": "Fermented anchovy extracts; check labels to ensure no hidden garlic or sugar additives."
+    },
+    "flat-bread": {
+        "commonUses": [
+            "Wrap sandwiches",
+            "Dipping breads"
+        ],
+        "ingredientAwareness": "Traditional wheat flatbreads deliver high fructan loads."
+    },
+    "flax-seed": {
+        "commonUses": [
+            "Smoothie fiber boosts",
+            "Seedy bread baking"
+        ],
+        "ingredientAwareness": "Whole or ground linseeds provide gentle soluble fiber in standard portions."
+    },
+    "freekeh": {
+        "commonUses": [
+            "Ancient grain salads",
+            "Pilaf side dishes"
+        ],
+        "ingredientAwareness": "Green cracked wheat containing high fructan levels."
+    },
+    "fructose-sports-drinks": {
+        "commonUses": [
+            "Endurance athletic fueling"
+        ],
+        "ingredientAwareness": "Formulated specifically with high free fructose, making them direct IBS triggers."
+    },
+    "fruit-juice": {
+        "commonUses": [
+            "Breakfast beverages",
+            "Cocktail mixers"
+        ],
+        "ingredientAwareness": "Liquid fruit extraction concentrates free sugars rapidly."
+    },
+    "garlic": {
+        "commonUses": [
+            "Savoury base cooking",
+            "Marinades and stir-fries",
+            "Garlic butter and oils"
+        ],
+        "ingredientAwareness": "Garlic is exceptionally rich in fructans. Even small amounts or garlic powders can trigger symptoms; opt for garlic-infused oils where the FODMAPs remain in the solid residue."
+    },
+    "garlic-infused-olive-oil": {
+        "commonUses": [
+            "Sautéing bases",
+            "Salad dressings",
+            "Bread dipping"
+        ],
+        "ingredientAwareness": "Fructans are water-soluble rather than oil-soluble, meaning properly infused commercial oils allow you to get the garlic flavor without the FODMAPs."
+    },
+    "garlic-salt": {
+        "commonUses": [
+            "Dry rubs for meat",
+            "Savory popcorn seasoning",
+            "Roast potato seasoning"
+        ],
+        "ingredientAwareness": "Combines table salt with dehydrated garlic powder, making it a concentrated fructan hazard."
+    },
+    "ghee": {
+        "commonUses": [
+            "High-heat frying",
+            "Indian curry cooking",
+            "Baking richness"
+        ],
+        "ingredientAwareness": "Clarified butter where virtually all lactose and milk solids have been strained out, rendering it low FODMAP."
+    },
+    "gin": {
+        "commonUses": [
+            "Cocktail mixing",
+            "Summer tonics"
+        ],
+        "ingredientAwareness": "Distilled spirits are generally low FODMAP, but mixers (like standard tonic water containing high-fructose syrups) require close attention."
+    },
+    "ginger": {
+        "commonUses": [
+            "Asian stir-fries",
+            "Digestive teas",
+            "Baking gingerbread"
+        ],
+        "ingredientAwareness": "Fresh ginger root adds a warming spice kick while being entirely free of tested FODMAPs."
+    },
+    "glucose-sports-drinks": {
+        "commonUses": [
+            "Athletic hydration",
+            "Endurance sports fueling"
+        ],
+        "ingredientAwareness": "Unlike fructose-heavy drinks, pure glucose-based formulations are easily absorbed and low FODMAP."
+    },
+    "glucose-syrup": {
+        "commonUses": [
+            "Confectionery making",
+            "Baking moisture retention"
+        ],
+        "ingredientAwareness": "Pure glucose syrup contains no excess fructose, making it safe for low-FODMAP sweetening."
+    },
+    "gluten-free-biscuits": {
+        "commonUses": [
+            "Tea-time treats",
+            "Crumb crust bases for cheesecakes"
+        ],
+        "ingredientAwareness": "Gluten-free does not mean low FODMAP; always check labels for hidden honey, apple juice concentrate, or chicory root fiber."
+    },
+    "gluten-free-bread": {
+        "commonUses": [
+            "Sandwiches",
+            "Toasted breakfast slices"
+        ],
+        "ingredientAwareness": "Typically crafted from rice, corn, and tapioca starches. Check for added high-FODMAP flours like amaranth or soy bean flour."
+    },
+    "gluten-free-cake": {
+        "commonUses": [
+            "Celebration baking",
+            "Dessert platters"
+        ],
+        "ingredientAwareness": "Inspect ingredient deck for hidden fruit purees, inulin, or polyol sweeteners."
+    },
+    "gluten-free-cereal": {
+        "commonUses": [
+            "Morning breakfast bowls"
+        ],
+        "ingredientAwareness": "Watch out for dried fruits like sultanas, raisins, or honey clusters blended into commercial GF cereals."
+    },
+    "gluten-free-noodles": {
+        "commonUses": [
+            "Asian stir-fries",
+            "Soup bowls"
+        ],
+        "ingredientAwareness": "Usually rice or potato-based; verify seasoning sachets do not contain onion or garlic powder."
+    },
+    "gluten-free-pasta": {
+        "commonUses": [
+            "Italian pasta dinners",
+            "Pasta salads"
+        ],
+        "ingredientAwareness": "Rice, corn, or quinoa pasta provides an authentic texture without wheat fructans."
+    },
+    "gluten-free-pastry": {
+        "commonUses": [
+            "Quiche shells",
+            "Pie crust baking"
+        ],
+        "ingredientAwareness": "Check fat and starch binders to ensure no high-FODMAP milk solids or sweeteners are included."
+    },
+    "golden-syrup": {
+        "commonUses": [
+            "Baking traditional cookies",
+            "Pancake drizzling"
+        ],
+        "ingredientAwareness": "A cane sugar byproduct that remains lower in excess fructose than honey or agave."
+    },
+    "gouda": {
+        "commonUses": [
+            "Cheese boards",
+            "Burger melt slices"
+        ],
+        "ingredientAwareness": "Aged firm cheeses naturally lose their lactose during the fermentation and draining stages."
+    },
+    "grapefruit": {
+        "commonUses": [
+            "Breakfast citrus halves",
+            "Cocktail mixing"
+        ],
+        "ingredientAwareness": "Contains moderate to high levels of natural polyols and free fructose depending on serving weight."
+    },
+    "grapes": {
+        "commonUses": [
+            "Fresh snacking",
+            "Cheese board accompaniments",
+            "Frozen treats"
+        ],
+        "ingredientAwareness": "Red and green grapes have established low-FODMAP serving thresholds before excess fructose accumulates."
+    },
+    "greek-yoghurt": {
+        "commonUses": [
+            "Breakfast bowls",
+            "Dipping sauces",
+            "Smoothie bases"
+        ],
+        "ingredientAwareness": "Traditional straining removes some whey, but regular Greek yogurt still contains significant dairy lactose."
+    },
+    "green-beans": {
+        "commonUses": [
+            "Steamed dinner sides",
+            "Casserole additions",
+            "Salad tosses"
+        ],
+        "ingredientAwareness": "Common green string beans have generous low-FODMAP serving sizes before sorbitol becomes active."
+    },
+    "green-tea": {
+        "commonUses": [
+            "Antioxidant-rich hot brewing",
+            "Iced summer drinks"
+        ],
+        "ingredientAwareness": "Plain brewed green tea is completely low FODMAP, though caffeine can stimulate digestion."
+    },
+    "grey-pumpkin": {
+        "commonUses": [
+            "Roasting",
+            "Soup bases"
+        ],
+        "ingredientAwareness": "An Australian pumpkin variety with reliable low-FODMAP allowances in standard portions."
+    },
+    "gruyere-cheese": {
+        "commonUses": [
+            "Fondue",
+            "French onion soup toppings",
+            "Gourmet melting"
+        ],
+        "ingredientAwareness": "A hard alpine cheese with virtually zero detectable lactose."
+    },
+    "guava-firm": {
+        "commonUses": [
+            "Fruit salads",
+            "Fresh tropical snacking"
+        ],
+        "ingredientAwareness": "Unripe or firm guavas contain higher structural starches and different sugar ratios than fully soft ripe fruit."
+    },
+    "guava-ripe": {
+        "commonUses": [
+            "Tropical desserts",
+            "Smoothie blending"
+        ],
+        "ingredientAwareness": "Ripe guava has been tested with generous low-FODMAP serving limits."
+    },
+    "haloumi": {
+        "commonUses": [
+            "Pan-fried cheese slabs",
+            "Salad protein additions",
+            "Burgers"
+        ],
+        "ingredientAwareness": "A semi-hard milk cheese that handles high heat without melting; standard portions fit well within low-FODMAP limits."
+    },
+    "haricot-beans": {
+        "commonUses": [
+            "Baked bean production",
+            "Pork and bean stews"
+        ],
+        "ingredientAwareness": "Dry white beans loaded with high GOS content; strict portion caution is required."
+    },
+    "hazelnuts": {
+        "commonUses": [
+            "Chocolate praline spreads",
+            "Baking crunches",
+            "Nut mixes"
+        ],
+        "ingredientAwareness": "Contain moderate amounts of GOS; portion caps must be observed to prevent digestive upset."
+    },
+    "hemp-seed": {
+        "commonUses": [
+            "Salad sprinklers",
+            "Smoothie nutritional boosts"
+        ],
+        "ingredientAwareness": "Shelled hemp hearts offer rich plant-based proteins and healthy fats with zero FODMAP concerns."
+    },
+    "honey": {
+        "commonUses": [
+            "Tea sweetening",
+            "Glazes",
+            "Cough soothing"
+        ],
+        "ingredientAwareness": "Honey is notoriously high in excess fructose, heavily outbalancing glucose and triggering IBS symptoms rapidly."
+    },
+    "honeydew-melon": {
+        "commonUses": [
+            "Fruit platters",
+            "Summer melon salads"
+        ],
+        "ingredientAwareness": "Contains moderate excess fructose and polyols; strict portion sizing is recommended."
+    },
+    "hot-chocolate": {
+        "commonUses": [
+            "Winter warming drinks",
+            "Dessert beverages"
+        ],
+        "ingredientAwareness": "Must be prepared using a low-FODMAP milk (like almond or lactose-free milk) and pure cocoa powder."
+    },
+    "hummus": {
+        "commonUses": [
+            "Dip for vegetables",
+            "Wrap spreads"
+        ],
+        "ingredientAwareness": "Traditional store-bought hummus pairs chickpeas with raw garlic and tahini, making it a double FODMAP trigger."
+    },
+    "ice-cream": {
+        "commonUses": [
+            "Summer desserts",
+            "Sundae treats"
+        ],
+        "ingredientAwareness": "Standard dairy ice creams pack heavy lactose loads; look for certified lactose-free or coconut-based alternatives."
+    },
+    "icing-sugar": {
+        "commonUses": [
+            "Cake frosting",
+            "Dusting pastries"
+        ],
+        "ingredientAwareness": "Pure powdered sucrose mixed with a tiny amount of anti-caking starch, keeping it low FODMAP."
+    },
+    "jalapeno-pickled": {
+        "commonUses": [
+            "Nachos",
+            "Burger toppings",
+            "Taco heat"
+        ],
+        "ingredientAwareness": "Ensure pickling brines are flavored with vinegar and spices rather than garlic or onion cloves."
+    },
+    "japanese-pumpkin": {
+        "commonUses": [
+            "Kabocha squash roasting",
+            "Soup purees"
+        ],
+        "ingredientAwareness": "A sweet orange-fleshed squash with favorable low-FODMAP limits in standard cooked portions."
+    },
+    "jelly": {
+        "commonUses": [
+            "Kids dessert cups",
+            "Party treats"
+        ],
+        "ingredientAwareness": "Check pre-made gelatin packets for high-fructose corn syrup or fruit juice concentrate additions."
+    },
+    "jicama": {
+        "commonUses": [
+            "Mexican crunchy salads",
+            "Slaw additions"
+        ],
+        "ingredientAwareness": "A crisp, turnip-like root tuber packed with water and fiber while remaining low FODMAP."
+    },
+    "kai-lan": {
+        "commonUses": [
+            "Chinese broccoli stir-fries",
+            "Garlic-free side dishes"
+        ],
+        "ingredientAwareness": "A fantastic leafy green vegetable offering crisp stalks and wonderful digestive tolerance."
+    },
+    "kale": {
+        "commonUses": [
+            "Kale chips",
+            "Massaged salads",
+            "Smoothie greens"
+        ],
+        "ingredientAwareness": "A nutrient-dense cruciferous green that is very well tolerated in standard portions."
+    },
+    "kefir": {
+        "commonUses": [
+            "Gut health probiotic drinks",
+            "Smoothie bases"
+        ],
+        "ingredientAwareness": "Fermented dairy drink packed with live cultures, but still retains significant amounts of lactose unless specifically labeled lactose-free."
+    },
+    "kidney-beans": {
+        "commonUses": [
+            "Chili con carne",
+            "Bean salads"
+        ],
+        "ingredientAwareness": "Dry or improperly soaked red kidney beans contain high GOS; thorough rinsing of canned versions reduces risk."
+    },
+    "kimchi": {
+        "commonUses": [
+            "Korean side dishes",
+            "Rice bowl toppings"
+        ],
+        "ingredientAwareness": "Traditional kimchi is heavily seasoned with garlic, onion, and fish sauce, making standard store varieties high FODMAP."
+    },
+    "kiwifruit": {
+        "commonUses": [
+            "Breakfast fruit bowls",
+            "Pavlova toppings"
+        ],
+        "ingredientAwareness": "Both green and gold kiwifruits have generous low-FODMAP serving allowances and support gut motility."
+    },
+    "kombucha-tea": {
+        "commonUses": [
+            "Fermented probiotic drinks"
+        ],
+        "ingredientAwareness": "Fermented tea brews often retain residual sugars and variable FODMAP levels depending on fermentation length."
+    },
+    "kumara": {
+        "commonUses": [
+            "Sweet potato fries",
+            "Roasted mash",
+            "Autumn stews"
+        ],
+        "ingredientAwareness": "Orange and red sweet potato varieties (kumara) contain mannitol; monitor portion weights carefully."
+    },
+    "lactose-free-milk": {
+        "commonUses": [
+            "Cereal pouring",
+            "Coffee creaming",
+            "Baking"
+        ],
+        "ingredientAwareness": "Regular cow's milk treated with lactase enzyme to break down lactose, making it fully safe for sensitive guts."
+    },
+    "lactose-free-yoghurt": {
+        "commonUses": [
+            "Breakfast parfaits",
+            "Yoghurt bowls"
+        ],
+        "ingredientAwareness": "Provides the creamy texture of dairy yogurt without the lactose distress."
+    },
+    "lamb": {
+        "commonUses": [
+            "Roast leg of lamb",
+            "Chops",
+            "Middle Eastern stews"
+        ],
+        "ingredientAwareness": "Unprocessed red meat contains zero carbohydrates; watch out for garlic-heavy marinades."
+    },
+    "leek": {
+        "commonUses": [
+            "Soup flavor bases",
+            "Quiche fillings"
+        ],
+        "ingredientAwareness": "The white bulb of the leek is exceptionally high in fructans, whereas the green leafy tops are low FODMAP."
+    },
+    "lemon": {
+        "commonUses": [
+            "Salad dressings",
+            "Marinade acidifiers",
+            "Beverage flavoring"
+        ],
+        "ingredientAwareness": "Fresh lemon juice adds bright citrus acidity without introducing fermentable sugars."
+    },
+    "lentil-burger-patty": {
+        "commonUses": [
+            "Vegetarian burger lunches"
+        ],
+        "ingredientAwareness": "Typically constructed from red or green lentils blended with onion/garlic binders."
+    },
+    "lentils-canned": {
+        "commonUses": [
+            "Quick lentil soups",
+            "Warm grain salads"
+        ],
+        "ingredientAwareness": "Canning and draining water-soluble GOS out of lentils makes canned versions much more digestible than dry-cooked ones."
+    },
+    "lentils-green": {
+        "commonUses": [
+            "Hearty soups",
+            "Warm side dishes"
+        ],
+        "ingredientAwareness": "Whole green/brown lentils are concentrated sources of oligosaccharides."
+    },
+    "lentils-red": {
+        "commonUses": [
+            "Indian dahl",
+            "Soup thickening"
+        ],
+        "ingredientAwareness": "Split red lentils cook down quickly and have slightly lower FODMAP accumulation than whole green lentils in controlled portions."
+    },
+    "lettuce": {
+        "commonUses": [
+            "Salad bowl bases",
+            "Burger wrappers"
+        ],
+        "ingredientAwareness": "Iceberg, butterhead, and coslettuces are crisp, refreshing, and completely low FODMAP."
+    },
+    "licorice": {
+        "commonUses": [
+            "Confectionery snacking"
+        ],
+        "ingredientAwareness": "Traditional licorice is made with wheat flour and molasses, delivering a heavy fructan load."
+    },
+    "lima-beans": {
+        "commonUses": [
+            "Succotash dishes",
+            "Vegetable stews"
+        ],
+        "ingredientAwareness": "Large butter beans packed with high GOS levels; restrict portion sizes strictly."
+    },
+    "lime": {
+        "commonUses": [
+            "Mexican dressings",
+            "Cocktail mixing",
+            "Asian dipping sauces"
+        ],
+        "ingredientAwareness": "Fresh lime juice provides clean citrus notes with zero FODMAP concerns."
+    },
+    "liquorice-tea": {
+        "commonUses": [
+            "Herbal wellness brews"
+        ],
+        "ingredientAwareness": "Natural root extracts can impact blood pressure and require checking for blended herbal ingredients."
+    },
+    "lobster": {
+        "commonUses": [
+            "Gourmet seafood dinners",
+            "Rolls"
+        ],
+        "ingredientAwareness": "Pure shellfish contains no carbohydrates or FODMAPs."
+    },
+    "lollies": {
+        "commonUses": [
+            "Party treats",
+            "Sugar boosts"
+        ],
+        "ingredientAwareness": "Plain sugar-sweetened lollies are generally low FODMAP, but sugar-free versions containing polyol sweeteners (xylitol, sorbitol) must be avoided."
+    },
+    "lotus-root": {
+        "commonUses": [
+            "Asian stir-fries",
+            "Crispy chips"
+        ],
+        "ingredientAwareness": "Fresh or frozen lotus root is low FODMAP, but dried versions concentrate starches rapidly."
+    },
+    "lsa": {
+        "commonUses": [
+            "Smoothie sprinkle",
+            "Baking nutrition boost"
+        ],
+        "ingredientAwareness": "A blended mix of linseeds (flaxseed), sunflower seeds, and almonds providing balanced fiber."
+    },
+    "lupin-flour": {
+        "commonUses": [
+            "High-protein low-carb baking"
+        ],
+        "ingredientAwareness": "Derived from legume seeds; lupin contains high concentrations of dietary fiber and oligosaccharides."
+    },
+    "lychee": {
+        "commonUses": [
+            "Exotic fruit desserts",
+            "Cocktail garnishes"
+        ],
+        "ingredientAwareness": "Tropical fruits that pack high levels of excess fructose and polyols."
+    },
+    "macadamia-milk": {
+        "commonUses": [
+            "Dairy-free coffee creaming",
+            "Smoothies"
+        ],
+        "ingredientAwareness": "A rich, creamy nut milk alternative that is naturally low FODMAP; check labels for added thickeners."
+    },
+    "macadamias": {
+        "commonUses": [
+            "Gourmet nut snacking",
+            "Baking cookies"
+        ],
+        "ingredientAwareness": "One of the most gut-friendly nuts, featuring exceptionally high low-FODMAP serving thresholds."
+    },
+    "maize-flour": {
+        "commonUses": [
+            "Corn-based baking",
+            "Tortilla making"
+        ],
+        "ingredientAwareness": "Fine corn flour provides a reliable gluten-free and low-FODMAP pantry staple."
+    },
+    "malt-vinegar": {
+        "commonUses": [
+            "Fish and chips condiment",
+            "Pickling liquids"
+        ],
+        "ingredientAwareness": "Brewed from malted barley, meaning trace gluten or fructan markers can occasionally affect sensitive individuals."
+    },
+    "malted-chocolate-powder": {
+        "commonUses": [
+            "Malted milk drinks",
+            "Bakery flavoring"
+        ],
+        "ingredientAwareness": "Combines barley malt extract with milk powder and cocoa, creating a high-FODMAP blend."
+    },
+    "manchego-cheese": {
+        "commonUses": [
+            "Spanish cheese platters",
+            "Tapas"
+        ],
+        "ingredientAwareness": "Authentic aged sheep's milk cheese featuring minimal residual lactose."
+    },
+    "mandarin": {
+        "commonUses": [
+            "Fresh citrus snacking",
+            "Lunchbox fruits"
+        ],
+        "ingredientAwareness": "Small citrus fruits with established low-FODMAP serving boundaries before fructose accumulates."
+    },
+    "mango": {
+        "commonUses": [
+            "Tropical smoothie bowls",
+            "Salsa pairings"
+        ],
+        "ingredientAwareness": "Mangoes are heavily saturated with excess free fructose, making them a potent trigger food."
+    },
+    "mango-chutney": {
+        "commonUses": [
+            "Curry accompaniments",
+            "Cheese board spreads"
+        ],
+        "ingredientAwareness": "Commercial chutneys blend mango fruit with heavy amounts of onions, garlic, and cane sugar."
+    },
+    "mangosteen": {
+        "commonUses": [
+            "Exotic fruit tasting"
+        ],
+        "ingredientAwareness": "A delicate tropical purple fruit that remains well tolerated in moderate portions."
+    },
+    "margarine": {
+        "commonUses": [
+            "Toast spreading",
+            "Baking fats"
+        ],
+        "ingredientAwareness": "Plant-oil spreads; check ingredient lists for hidden dairy milk solids or whey powders."
+    },
+    "marmalade": {
+        "commonUses": [
+            "Toast spreads",
+            "Meat glazes"
+        ],
+        "ingredientAwareness": "Citrus peel jams; check sugar and sweetener profiles on commercial jars."
+    },
+    "marmite": {
+        "commonUses": [
+            "Toast spreading",
+            "Savory soup broths"
+        ],
+        "ingredientAwareness": "Yeast extract spread; check labels for added vegetable extracts or onion flavorings."
+    },
+    "marshmallow": {
+        "commonUses": [
+            "S'mores",
+            "Hot chocolate toppings",
+            "Baking treats"
+        ],
+        "ingredientAwareness": "Standard sugar and gelatin marshmallows are surprisingly low FODMAP in moderate quantities, but check for sugar-free polyol versions."
+    },
+    "matcha-powder": {
+        "commonUses": [
+            "Japanese green tea lattes",
+            "Baking flavorings"
+        ],
+        "ingredientAwareness": "Stone-ground green tea leaf powder; pure matcha is low FODMAP."
+    },
+    "mayonnaise": {
+        "commonUses": [
+            "Sandwich spreads",
+            "Potato salad dressings"
+        ],
+        "ingredientAwareness": "Traditional mayo combines oil, egg, and vinegar (low FODMAP); check commercial labels for hidden garlic or onion seasoning."
+    },
+    "milk-chocolate": {
+        "commonUses": [
+            "Confectionery snacking",
+            "Baking chips"
+        ],
+        "ingredientAwareness": "Contains dairy milk solids, meaning lactose limits apply strictly based on portion size."
+    },
+    "millet": {
+        "commonUses": [
+            "Ancient grain porridge",
+            "Birdseed-style breads"
+        ],
+        "ingredientAwareness": "A small-seeded gluten-free grain that is gentle on sensitive digestive systems."
+    },
+    "millet-flour": {
+        "commonUses": [
+            "Gluten-free bread flour blends"
+        ],
+        "ingredientAwareness": "Milled millet grain that adds a mild nutty flavor to baking recipes."
+    },
+    "millet-pasta": {
+        "commonUses": [
+            "Gluten-free dinner pastas"
+        ],
+        "ingredientAwareness": "Alternative pasta made from millet flour; verify no wheat binders are mixed in."
+    },
+    "milo": {
+        "commonUses": [
+            "Malted chocolate milk drinks"
+        ],
+        "ingredientAwareness": "Combines barley malt extract with milk solids and sugar, making it high FODMAP."
+    },
+    "mint-fresh": {
+        "commonUses": [
+            "Mojito cocktails",
+            "Lamb dish garnishes",
+            "Fresh herbal teas"
+        ],
+        "ingredientAwareness": "Fresh mint leaves provide soothing herbal flavor with zero FODMAP concerns."
+    },
+    "mint-jelly-sauce": {
+        "commonUses": [
+            "Roast lamb accompaniments"
+        ],
+        "ingredientAwareness": "Sugar and mint extracts; verify no high-fructose corn syrup is used as a base."
+    },
+    "mirin": {
+        "commonUses": [
+            "Japanese teriyaki glazes",
+            "Sushi rice seasoning"
+        ],
+        "ingredientAwareness": "Sweet rice cooking wine; check labels for added corn syrups or glucose blends."
+    },
+    "miso-paste": {
+        "commonUses": [
+            "Japanese miso soup",
+            "Umami marinades"
+        ],
+        "ingredientAwareness": "Fermented soybean paste; traditional miso is often surprisingly well tolerated in standard soup portions despite soybean origins."
+    },
+    "mixed-berry-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Pastry fillings"
+        ],
+        "ingredientAwareness": "Combines multiple berry fruits with high sugar concentrations; monitor portion sizes."
+    },
+    "mozzarella": {
+        "commonUses": [
+            "Pizza melting",
+            "Caprese salads"
+        ],
+        "ingredientAwareness": "Fresh high-moisture mozzarella contains moderate lactose, whereas aged low-moisture blocks have very little."
+    },
+    "muesli": {
+        "commonUses": [
+            "Breakfast oat mixes",
+            "Overnight soaked bowls"
+        ],
+        "ingredientAwareness": "Commercial muesli blends frequently combine high-FODMAP dried fruits (sultanas/dates) and wheat flakes."
+    },
+    "muesli-bar-with-fruit": {
+        "commonUses": [
+            "On-the-go snack bars"
+        ],
+        "ingredientAwareness": "Packed with dried fruit pieces, honey, and wheat binders—typically a high-FODMAP snack item."
+    },
+    "muffins": {
+        "commonUses": [
+            "Coffee shop breakfast treats"
+        ],
+        "ingredientAwareness": "Traditional bakery muffins rely heavily on wheat flour, milk solids, and concentrated fruit fillings."
+    },
+    "multigrain-bread": {
+        "commonUses": [
+            "Sandwich loaves",
+            "Toast"
+        ],
+        "ingredientAwareness": "Usually formulated with a blend of wheat, barley, and rye flours, making it high in fructans."
+    },
+    "mushrooms": {
+        "commonUses": [
+            "Stir-fries",
+            "Savory soup bases",
+            "Pizza toppings"
+        ],
+        "ingredientAwareness": "Almost all mushroom varieties are exceptionally rich in polyols (mannitol) and must be avoided."
+    },
+    "mustard": {
+        "commonUses": [
+            "Sandwich condiments",
+            "Vinaigrette emulsifiers"
+        ],
+        "ingredientAwareness": "Prepared yellow/Dijon mustard is generally low FODMAP; check labels for hidden garlic or onion flavorings."
+    },
+    "mustard-seeds": {
+        "commonUses": [
+            "Pickling spices",
+            "Indian curry sputtering"
+        ],
+        "ingredientAwareness": "Whole mustard seeds add pungent warmth without introducing fermentable carbohydrates."
+    },
+    "naan-bread": {
+        "commonUses": [
+            "Indian curry restaurant breads"
+        ],
+        "ingredientAwareness": "Traditional leavened flatbreads crafted from wheat flour and yogurt, delivering high fructan and lactose levels."
+    },
+    "nashi-pears": {
+        "commonUses": [
+            "Asian pear fresh snacking"
+        ],
+        "ingredientAwareness": "Extremely rich in sorbitol and excess fructose; a potent trigger fruit for IBS."
+    },
+    "nectarines": {
+        "commonUses": [
+            "Summer fruit platters",
+            "Dessert baking"
+        ],
+        "ingredientAwareness": "Stone fruits packed with natural sorbitol and fructose."
+    },
+    "nutmeg": {
+        "commonUses": [
+            "Baking spice",
+            "Bechamel sauce seasoning"
+        ],
+        "ingredientAwareness": "A grated tree seed spice that introduces zero FODMAP concerns in normal cooking amounts."
+    },
+    "nutritional-yeast": {
+        "commonUses": [
+            "Vegan cheese flavoring",
+            "Popcorn seasoning dusting"
+        ],
+        "ingredientAwareness": "Inactive yeast flakes providing a savory, cheesy umami profile without active fermentation issues."
+    },
+    "oat-bran": {
+        "commonUses": [
+            "Fiber porridge",
+            "Baking texture boosts"
+        ],
+        "ingredientAwareness": "The outer hull of the oat grain; contains moderate fructans and beta-glucan fibers."
+    },
+    "oat-bread": {
+        "commonUses": [
+            "Sandwich loaves"
+        ],
+        "ingredientAwareness": "Oat breads often blend oat flour with wheat flour backbones, requiring careful ingredient verification."
+    },
+    "oat-flour": {
+        "commonUses": [
+            "Gluten-free style baking",
+            "Pancake mixing"
+        ],
+        "ingredientAwareness": "Ground whole oats; serving sizes must be monitored due to moderate fructan content."
+    },
+    "oat-milk": {
+        "commonUses": [
+            "Barista coffee foaming",
+            "Cereal pouring"
+        ],
+        "ingredientAwareness": "Oat milk extracts starches and sugars directly from oats, resulting in a naturally higher FODMAP liquid than almond or rice milk."
+    },
+    "oats-quick": {
+        "commonUses": [
+            "Fast microwave porridge"
+        ],
+        "ingredientAwareness": "Rolled and finely milled oats that cook rapidly; standard half-cup portions have established low-FODMAP safety limits."
+    },
+    "oats-rolled": {
+        "commonUses": [
+            "Traditional porridge",
+            "Granola baking"
+        ],
+        "ingredientAwareness": "A breakfast staple that is well tolerated in standard 1/2 cup serving sizes."
+    },
+    "okra": {
+        "commonUses": [
+            "Gumbo thickening",
+            "Roasted vegetable sides"
+        ],
+        "ingredientAwareness": "Mucilaginous green pods that offer unique texture and friendly low-FODMAP tolerance."
+    },
+    "olive-oil": {
+        "commonUses": [
+            "Salad dressings",
+            "Pan searing",
+            "Roasting"
+        ],
+        "ingredientAwareness": "Pure extra virgin olive oil contains zero carbohydrates and is completely safe from FODMAPs."
+    },
+    "olives": {
+        "commonUses": [
+            "Antipasto platters",
+            "Mediterranean salads",
+            "Tapenades"
+        ],
+        "ingredientAwareness": "Brined green or black olives are naturally low FODMAP; check stuffed varieties for garlic or pimento fillings."
+    },
+    "onion": {
+        "commonUses": [
+            "Soups and stews",
+            "Salad bases",
+            "Caramelized toppings and sauces"
+        ],
+        "ingredientAwareness": "Like garlic, onions are high in fructans. Hidden onion powder is commonly used in commercial spice rubs, packet sauces, and stocks."
+    },
+    "onion-salt": {
+        "commonUses": [
+            "Savory spice rubs",
+            "Marinades"
+        ],
+        "ingredientAwareness": "Combines salt with dehydrated onion powder, making it a concentrated fructan hazard."
+    },
+    "oolong-tea": {
+        "commonUses": [
+            "Traditional tea brewing"
+        ],
+        "ingredientAwareness": "Partially fermented tea leaves providing robust flavor without added FODMAPs."
+    },
+    "orange": {
+        "commonUses": [
+            "Fresh citrus snacking",
+            "Lunchbox fruit"
+        ],
+        "ingredientAwareness": "Standard oranges have generous low-FODMAP serving sizes before natural sugars accumulate."
+    },
+    "orange-juice": {
+        "commonUses": [
+            "Breakfast juice glasses",
+            "Cocktail blending"
+        ],
+        "ingredientAwareness": "Juicing extracts and concentrates fruit sugars rapidly; stick to smaller glass sizes."
+    },
+    "oregano-dried": {
+        "commonUses": [
+            "Italian pizza seasoning",
+            "Greek salad dressings"
+        ],
+        "ingredientAwareness": "Dried herb leaves providing robust savory flavor with no FODMAP content."
+    },
+    "oregano-fresh": {
+        "commonUses": [
+            "Herb garnishes",
+            "Mediterranean cooking"
+        ],
+        "ingredientAwareness": "Fresh leafy herbs add culinary brightness safely."
+    },
+    "oyster-mushrooms": {
+        "commonUses": [
+            "Stir-fries",
+            "Sautéed mushroom sides"
+        ],
+        "ingredientAwareness": "Uniquely, oyster mushrooms are low FODMAP in standard portions, unlike almost all other mushroom species."
+    },
+    "oyster-sauce": {
+        "commonUses": [
+            "Asian stir-fry seasoning",
+            "Glazes"
+        ],
+        "ingredientAwareness": "Savory oyster extract sauce; check labels to ensure commercial brands omit hidden garlic and onion additives."
+    },
+    "palm-sugar": {
+        "commonUses": [
+            "Asian curries and desserts",
+            "Southeast Asian dressings"
+        ],
+        "ingredientAwareness": "Unrefined palm sap sugar providing a caramel sweetness profile while remaining lower in excess fructose than honey."
+    },
+    "paneer-cheese": {
+        "commonUses": [
+            "Indian paneer tikka",
+            "Vegetarian curry cubes"
+        ],
+        "ingredientAwareness": "Fresh Indian cottage cheese that is pressed and drained, containing very little residual lactose compared to liquid milk."
+    },
+    "panko-bread-crumbs": {
+        "commonUses": [
+            "Crispy katsu chicken coatings",
+            "Fried fish crusts"
+        ],
+        "ingredientAwareness": "Light, flaky Japanese wheat bread crumbs that deliver high fructan loads."
+    },
+    "papaya": {
+        "commonUses": [
+            "Tropical fruit bowls",
+            "Smoothie blending"
+        ],
+        "ingredientAwareness": "Ripe papayas have generous low-FODMAP serving sizes before fructose accumulates."
+    },
+    "paprika": {
+        "commonUses": [
+            "Spice rubs",
+            "Goulash seasoning",
+            "Color garnishes"
+        ],
+        "ingredientAwareness": "Ground dried capsicum fruit; pure smoked or sweet paprika adds rich flavor without introducing FODMAPs."
+    },
+    "parmesan": {
+        "commonUses": [
+            "Pasta grating",
+            "Risotto finishing",
+            "Caesar salad dressings"
+        ],
+        "ingredientAwareness": "Long-aged hard Italian cheeses undergo extensive bacterial fermentation, reducing lactose to virtually undetectable trace levels."
+    },
+    "parsley-fresh": {
+        "commonUses": [
+            "Herb garnish",
+            "Tabbouleh salads",
+            "Soup finishing"
+        ],
+        "ingredientAwareness": "Fresh flat-leaf or curly parsley provides vitamin-rich greenery with zero FODMAP concerns."
+    },
+    "parsnip": {
+        "commonUses": [
+            "Roasted root vegetable medleys",
+            "Soup base purees"
+        ],
+        "ingredientAwareness": "Root vegetables closely related to carrots that remain completely low FODMAP in standard portions."
+    },
+    "passionfruit": {
+        "commonUses": [
+            "Pavlova toppings",
+            "Tropical dessert coulis",
+            "Cocktail flavoring"
+        ],
+        "ingredientAwareness": "Delicious pulpy fruit with established low-FODMAP serving limits per fruit."
+    },
+    "pea-protein-powder": {
+        "commonUses": [
+            "Vegan protein shakes",
+            "Post-workout smoothies"
+        ],
+        "ingredientAwareness": "Extracted from yellow peas; isolate powders can still carry residual oligosaccharides, requiring personal tolerance testing."
+    },
+    "peach": {
+        "commonUses": [
+            "Fresh summer snacking",
+            "Pie baking",
+            "Dessert compotes"
+        ],
+        "ingredientAwareness": "Stone fruits heavily saturated with natural polyols (sorbitol) and excess fructose."
+    },
+    "peaches-canned": {
+        "commonUses": [
+            "Pudding toppings",
+            "Fruit salad cups"
+        ],
+        "ingredientAwareness": "Canning syrup absorbs water-soluble fruit sugars; check whether they are packed in water or heavy syrup."
+    },
+    "peanut-butter": {
+        "commonUses": [
+            "Toast spreads",
+            "Satay sauce bases",
+            "Smoothie protein boosts"
+        ],
+        "ingredientAwareness": "Pure peanut butter (just peanuts and salt) is naturally low FODMAP; check for added high-fructose syrups or honey."
+    },
+    "peanuts": {
+        "commonUses": [
+            "Snacking mixes",
+            "Asian dish garnishes",
+            "Satay crunch"
+        ],
+        "ingredientAwareness": "Unlike tree nuts like cashews or pistachios, peanuts are botanically legumes and feature very high low-FODMAP serving thresholds."
+    },
+    "pear": {
+        "commonUses": [
+            "Fresh snacking",
+            "Poached dessert pears"
+        ],
+        "ingredientAwareness": "Pears are among the highest natural sources of sorbitol and excess fructose."
+    },
+    "pearl-barley": {
+        "commonUses": [
+            "Hearty winter soups",
+            "Barley risottos"
+        ],
+        "ingredientAwareness": "Refined barley grain containing elevated fructan levels."
+    },
+    "peas": {
+        "commonUses": [
+            "Garden pea side dishes",
+            "Risotto stir-ins",
+            "Pie fillings"
+        ],
+        "ingredientAwareness": "Standard green garden peas contain moderate GOS levels and require careful portion sizing."
+    },
+    "pecans": {
+        "commonUses": [
+            "Pecan pie baking",
+            "Salad toppings",
+            "Nut mixes"
+        ],
+        "ingredientAwareness": "Tree nuts with wonderful low-FODMAP tolerance when eaten in standard handful portions."
+    },
+    "peppermint-tea": {
+        "commonUses": [
+            "Soothing digestive infusions",
+            "Post-meal drinks"
+        ],
+        "ingredientAwareness": "Peppermint oil and herbal tea help relax intestinal smooth muscle, making it a popular choice for calming IBS discomfort."
+    },
+    "perilla-fresh": {
+        "commonUses": [
+            "Asian herb platters",
+            "Korean BBQ wraps"
+        ],
+        "ingredientAwareness": "Shiso/perilla leaves provide a unique minty-basil flavor profile safely."
+    },
+    "persimmon": {
+        "commonUses": [
+            "Autumn fruit platters",
+            "Baking additions"
+        ],
+        "ingredientAwareness": "Fuyu vs. Hachiya varieties differ; astringent persimmons contain high tannins and polyols."
+    },
+    "pesto": {
+        "commonUses": [
+            "Pasta tossing",
+            "Sandwich spreads",
+            "Pizza base sauces"
+        ],
+        "ingredientAwareness": "Traditional pesto blends basil, garlic, and pine nuts. Standard store-bought versions are high FODMAP due to raw garlic cloves."
+    },
+    "pickle": {
+        "commonUses": [
+            "Burger layers",
+            "Charcuterie board sides"
+        ],
+        "ingredientAwareness": "Verify pickling brines are crafted using simple vinegar and dill rather than garlic cloves or onion slices."
+    },
+    "pine-nuts": {
+        "commonUses": [
+            "Pesto sauce making",
+            "Salad crunches",
+            "Middle Eastern rice toppings"
+        ],
+        "ingredientAwareness": "Nut kernels that are well tolerated in standard culinary quantities."
+    },
+    "pineapple": {
+        "commonUses": [
+            "Fresh tropical snacking",
+            "Ham glazes",
+            "Smoothie additions"
+        ],
+        "ingredientAwareness": "Fresh pineapple is well known for having generous low-FODMAP serving allowances."
+    },
+    "pistachio-nuts": {
+        "commonUses": [
+            "Baklava crunches",
+            "Pistachio ice cream",
+            "Nut mixes"
+        ],
+        "ingredientAwareness": "Extremely high in both fructans and GOS; pistachios must be strictly avoided during elimination."
+    },
+    "pita-bread": {
+        "commonUses": [
+            "Pocket sandwiches",
+            "Dipping bread"
+        ],
+        "ingredientAwareness": "Traditional wheat pita bread delivers a high fructan load."
+    },
+    "plain-biscuit": {
+        "commonUses": [
+            "Tea-time snacking",
+            "Cheesecake crumb bases"
+        ],
+        "ingredientAwareness": "Standard plain sweet biscuits are built from wheat flour and sugar."
+    },
+    "plum": {
+        "commonUses": [
+            "Fresh stone fruit snacking",
+            "Jam making"
+        ],
+        "ingredientAwareness": "Plums pack concentrated sorbitol and excess fructose."
+    },
+    "plum-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Pastry fillings"
+        ],
+        "ingredientAwareness": "High fruit sugar concentration combined with stone fruit polyols."
+    },
+    "plum-sauce": {
+        "commonUses": [
+            "Asian spring roll dips",
+            "Meat glazes"
+        ],
+        "ingredientAwareness": "Check labels for hidden high-fructose corn syrup, garlic, and onion thickeners."
+    },
+    "polenta": {
+        "commonUses": [
+            "Cornmeal porridge",
+            "Crispy polenta fries",
+            "Italian base layers"
+        ],
+        "ingredientAwareness": "Coarsely ground yellow cornmeal providing a comforting, gluten-free and low-FODMAP carbohydrate option."
+    },
+    "pomegranate": {
+        "commonUses": [
+            "Salad jewel toppings",
+            "Fresh aril snacking"
+        ],
+        "ingredientAwareness": "Pomegranate arils and juices contain moderate fructose levels; monitor serving sizes."
+    },
+    "popcorn": {
+        "commonUses": [
+            "Movie night snacking",
+            "Lunchbox treats"
+        ],
+        "ingredientAwareness": "Plain air-popped or oil-popped popcorn seasoned with salt is a whole-grain, low-FODMAP snack champion."
+    },
+    "poppy-seeds": {
+        "commonUses": [
+            "Lemon poppy seed cake baking",
+            "Bread crust toppings"
+        ],
+        "ingredientAwareness": "Tiny oil seeds that add texture safely in baking amounts."
+    },
+    "pork": {
+        "commonUses": [
+            "Roast pork dinners",
+            "Bacon and chops",
+            "Pulled pork"
+        ],
+        "ingredientAwareness": "Pure fresh pork contains no carbohydrates; inspect packaged rubs for hidden garlic/onion powders."
+    },
+    "potato": {
+        "commonUses": [
+            "Mashed potatoes",
+            "Roast potato wedges",
+            "Potato salads"
+        ],
+        "ingredientAwareness": "White, red, and jacket potatoes are versatile, highly digestible, and naturally low FODMAP when unseasoned."
+    },
+    "potato-chips": {
+        "commonUses": [
+            "Party snack bowls",
+            "Lunchbox sides"
+        ],
+        "ingredientAwareness": "Simple salted potato chips (potatoes, oil, salt) are safe; avoid flavored varieties like 'sour cream and onion' or 'garlic herb'."
+    },
+    "potato-flour": {
+        "commonUses": [
+            "Gluten-free baking thickeners",
+            "Bread crust bindings"
+        ],
+        "ingredientAwareness": "Pure starchy potato flour works effectively as a binder in sensitive diet baking."
+    },
+    "prawns-shrimp": {
+        "commonUses": [
+            "Seafood stir-fries",
+            "Garlic prawn alternatives",
+            "Prawn cocktails"
+        ],
+        "ingredientAwareness": "Fresh shell seafood contains zero carbohydrates; ensure restaurant preparations omit fresh garlic butter."
+    },
+    "pretzels": {
+        "commonUses": [
+            "Salty snack cravings",
+            "Party bowls"
+        ],
+        "ingredientAwareness": "Traditional wheat pretzels are baked from refined flour, delivering high fructan levels."
+    },
+    "prunes": {
+        "commonUses": [
+            "Digestive regularity support",
+            "Baking purées"
+        ],
+        "ingredientAwareness": "Dried plums concentrate sorbitol and fiber to exceptionally potent levels."
+    },
+    "puddings": {
+        "commonUses": [
+            "Dessert cups",
+            "Custard bowls"
+        ],
+        "ingredientAwareness": "Standard dairy puddings combine milk solids and thickeners, resulting in high lactose content."
+    },
+    "puff-pastry": {
+        "commonUses": [
+            "Sausage rolls",
+            "Apple tarts",
+            "Vol-au-vents"
+        ],
+        "ingredientAwareness": "Laminated layers of wheat flour dough and butter."
+    },
+    "puffed-amaranth": {
+        "commonUses": [
+            "Breakfast cereal toppings",
+            "Energy bar binding"
+        ],
+        "ingredientAwareness": "Light popped pseudo-grain providing an easy-to-digest crunch."
+    },
+    "pumpkin-canned": {
+        "commonUses": [
+            "Pie filling",
+            "Soup enrichment"
+        ],
+        "ingredientAwareness": "Pure 100% pumpkin puree is low FODMAP in standard half-cup serving sizes."
+    },
+    "pumpkin-seeds": {
+        "commonUses": [
+            "Salad crunch toppings",
+            "Roasted seed snacks"
+        ],
+        "ingredientAwareness": "Pepitas are nutrient-dense seeds featuring generous low-FODMAP allowances."
+    },
+    "pure-fruit-lollies": {
+        "commonUses": [
+            "Natural kids snacks"
+        ],
+        "ingredientAwareness": "Concentrated fruit juice jellies can pack heavy free fructose loads."
+    },
+    "pure-maple-syrup": {
+        "commonUses": [
+            "Pancake drizzling",
+            "Baking sweetener",
+            "Glazes"
+        ],
+        "ingredientAwareness": "Unlike honey or agave, 100% pure maple syrup has a balanced glucose-to-fructose ratio, making it an approved low-FODMAP sweetener."
+    },
+    "quince": {
+        "commonUses": [
+            "Quince paste cheese pairings",
+            "Poaching"
+        ],
+        "ingredientAwareness": "Hard tart autumn fruit packed with natural polyols and tannins."
+    },
+    "quinoa": {
+        "commonUses": [
+            "Grain salad bases",
+            "Protein porridge bowls"
+        ],
+        "ingredientAwareness": "An ancient Andean pseudo-cereal that cooks like a grain while being entirely gluten-free and low FODMAP."
+    },
+    "quinoa-flour": {
+        "commonUses": [
+            "Gluten-free baking",
+            "Flatbreads"
+        ],
+        "ingredientAwareness": "Milled quinoa flour providing complete plant proteins for sensitive diets."
+    },
+    "quinoa-pasta": {
+        "commonUses": [
+            "Healthy pasta dinners"
+        ],
+        "ingredientAwareness": "Combines quinoa and corn flour to create a resilient, low-FODMAP pasta option."
+    },
+    "radish": {
+        "commonUses": [
+            "Salad bite slices",
+            "Crudité platters"
+        ],
+        "ingredientAwareness": "Peppery crisp root vegetables that are completely free of tested FODMAPs."
+    },
+    "raisins": {
+        "commonUses": [
+            "Oatmeal baking",
+            "Trail mixes",
+            "Sultana alternatives"
+        ],
+        "ingredientAwareness": "Dried grapes concentrate excess fructose and sorbitol rapidly into dense portions."
+    },
+    "rambutan": {
+        "commonUses": [
+            "Exotic fruit dessert bowls"
+        ],
+        "ingredientAwareness": "Hairy tropical fruit with sweet translucent flesh that is well tolerated in moderate portions."
+    },
+    "raspberries": {
+        "commonUses": [
+            "Berry smoothie bowls",
+            "Fresh dessert garnishes"
+        ],
+        "ingredientAwareness": "Delicate berries with established low-FODMAP serving sizes before minor polyols accumulate."
+    },
+    "raspberry-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Thumbprint cookie centers"
+        ],
+        "ingredientAwareness": "Check labels for high-fructose corn syrup or apple juice concentrate blending."
+    },
+    "red-cabbage": {
+        "commonUses": [
+            "Crunchy slaws",
+            "Taco toppings",
+            "Salad coloring"
+        ],
+        "ingredientAwareness": "Red cabbage has distinct, highly favorable low-FODMAP serving thresholds compared to other cruciferous veggies."
+    },
+    "red-rice": {
+        "commonUses": [
+            "Gourmet grain bowls",
+            "Side dishes"
+        ],
+        "ingredientAwareness": "Nutritious whole-grain rice variety that is gentle on sensitive digestive tracks."
+    },
+    "red-wine": {
+        "commonUses": [
+            "Dinner sipping",
+            "Beef stew reductions"
+        ],
+        "ingredientAwareness": "Standard dry red wines have very little residual sugar, making a standard 5oz glass generally well tolerated."
+    },
+    "red-wine-vinegar": {
+        "commonUses": [
+            "Vinaigrette dressings",
+            "Marinade acidifiers"
+        ],
+        "ingredientAwareness": "Fermented grape wine vinegar providing sharp acidity without introducing FODMAPs."
+    },
+    "refried-beans-canned": {
+        "commonUses": [
+            "Mexican burritos",
+            "Dip bases"
+        ],
+        "ingredientAwareness": "Traditional refried beans are made from pinto beans and heavily seasoned with onion and garlic powder."
+    },
+    "relish": {
+        "commonUses": [
+            "Burger condiments",
+            "Sausage toppings"
+        ],
+        "ingredientAwareness": "Commercial vegetable relishes rely heavily on onions, bell peppers, and high-fructose sweeteners."
+    },
+    "rhubarb": {
+        "commonUses": [
+            "Rhubarb crumbles",
+            "Tart compotes"
+        ],
+        "ingredientAwareness": "Tart spring stalks containing malic acid rather than high FODMAP sugars, making them well tolerated when sweetened safely."
+    },
+    "rice-bran": {
+        "commonUses": [
+            "Fiber baking boosts",
+            "Porridge mix-ins"
+        ],
+        "ingredientAwareness": "The outer layer of the rice grain providing gentle insoluble fiber."
+    },
+    "rice-bubbles": {
+        "commonUses": [
+            "Breakfast cereal bowls",
+            "Crispy treat squares"
+        ],
+        "ingredientAwareness": "Puffed white rice cereal; ensure brands avoid barley malt flavoring."
+    },
+    "rice-cakes": {
+        "commonUses": [
+            "Light snack crunch",
+            "Nut butter toast bases"
+        ],
+        "ingredientAwareness": "Popped rice cakes are fat-free, easily digestible, and low FODMAP."
+    },
+    "rice-crackers": {
+        "commonUses": [
+            "Snack platters",
+            "Cheese pairing crackers"
+        ],
+        "ingredientAwareness": "Simple baked rice crackers are safe; check for added soy sauce or garlic seasoning powders."
+    },
+    "rice-flour": {
+        "commonUses": [
+            "Gluten-free baking",
+            "Breading fried foods"
+        ],
+        "ingredientAwareness": "A foundational white or brown rice flour staple for sensitive diets."
+    },
+    "rice-milk": {
+        "commonUses": [
+            "Cereal pouring",
+            "Beverage mixing"
+        ],
+        "ingredientAwareness": "A naturally sweeter plant milk derived from rice carbohydrates; check serving caps for excess carbohydrate load."
+    },
+    "rice-noodles": {
+        "commonUses": [
+            "Pad Thai dishes",
+            "Asian soup noodles",
+            "Vermicelli salads"
+        ],
+        "ingredientAwareness": "Pure rice noodles are an essential low-FODMAP staple for Asian-style cooking."
+    },
+    "rice-pasta": {
+        "commonUses": [
+            "Gluten-free spaghetti and penne dinners"
+        ],
+        "ingredientAwareness": "Holds its shape well in hot Italian dishes without introducing wheat fructans."
+    },
+    "rice-wine-vinegar": {
+        "commonUses": [
+            "Sushi rice seasoning",
+            "Asian salad dressings"
+        ],
+        "ingredientAwareness": "Mild fermented rice vinegar providing clean acidity."
+    },
+    "ricotta": {
+        "commonUses": [
+            "Lasagna fillings",
+            "Pancake batter richness",
+            "Cannoli cream"
+        ],
+        "ingredientAwareness": "Fresh whey cheese containing significant dairy lactose; look for specialized lactose-free ricotta."
+    },
+    "rye": {
+        "commonUses": [
+            "Rye whiskey distillation",
+            "Baking grains"
+        ],
+        "ingredientAwareness": "Rye grain is exceptionally rich in fructans and gluten, making it a primary high-FODMAP grain."
+    },
+    "rye-bread": {
+        "commonUses": [
+            "Scandinavian open sandwiches"
+        ],
+        "ingredientAwareness": "Traditional dark rye bread delivers heavy fructan loads."
+    },
+    "rye-crispbread": {
+        "commonUses": [
+            "Snack crackers",
+            "Cheese spreads"
+        ],
+        "ingredientAwareness": "Crispbread slices made from rye flour."
+    },
+    "rye-flour": {
+        "commonUses": [
+            "Sourdough rye baking"
+        ],
+        "ingredientAwareness": "High fructan content across all standard milling grades."
+    },
+    "saffron": {
+        "commonUses": [
+            "Paella coloring and aroma",
+            "Risotto seasoning"
+        ],
+        "ingredientAwareness": "Precious thread spice that infuses golden color and distinct fragrance without adding FODMAPs."
+    },
+    "sago": {
+        "commonUses": [
+            "Pudding desserts",
+            "Thickening soups"
+        ],
+        "ingredientAwareness": "Starchy palm pearls similar to tapioca, offering easy digestion."
+    },
+    "salmon-canned": {
+        "commonUses": [
+            "Salmon patties",
+            "Sandwich fillings",
+            "Salad protein"
+        ],
+        "ingredientAwareness": "Pure canned fish contains zero carbohydrates or FODMAPs."
+    },
+    "sauerkraut": {
+        "commonUses": [
+            "German sausage toppings",
+            "Reuben sandwiches"
+        ],
+        "ingredientAwareness": "Fermented cabbage; standard commercial sauerkraut contains high mannitol and sorbitol levels due to cabbage fermentation."
+    },
+    "sausage": {
+        "commonUses": [
+            "Breakfast fry-ups",
+            "BBQ dinners"
+        ],
+        "ingredientAwareness": "Standard butcher sausages almost universally incorporate wheat rusk breadcrumbs, garlic powder, and onion flakes."
+    },
+    "savoy-cabbage": {
+        "commonUses": [
+            "Cabbage rolls",
+            "Stir-fry slaws"
+        ],
+        "ingredientAwareness": "Crinkled leaf cabbage variety with favourable low-FODMAP serving thresholds."
+    },
+    "scones": {
+        "commonUses": [
+            "Afternoon tea",
+            "Jam and cream pairings"
+        ],
+        "ingredientAwareness": "Traditional baked bakery scones combine wheat flour, butter, and milk solids."
+    },
+    "seasonings-and-herbs": {
+        "commonUses": [
+            "General culinary flavor enhancement"
+        ],
+        "ingredientAwareness": "Always inspect pre-mixed seasoning shakers for hidden onion and garlic salt powders."
+    },
+    "seaweed-sheets": {
+        "commonUses": [
+            "Sushi rolls",
+            "Nori snack sheets",
+            "Ramen garnishes"
+        ],
+        "ingredientAwareness": "Roasted nori and kelp sheets provide mineral-rich umami flavor with zero FODMAP concerns."
+    },
+    "semolina": {
+        "commonUses": [
+            "Pasta manufacturing",
+            "Gnocchi and pudding bases"
+        ],
+        "ingredientAwareness": "Coarse wheat middlings rich in fructans."
+    },
+    "sesame-oil": {
+        "commonUses": [
+            "Asian stir-fry finishing oils",
+            "Marinades"
+        ],
+        "ingredientAwareness": "Roasted or plain sesame oil is a pure plant fat containing zero fermentable carbohydrates."
+    },
+    "sesame-seeds": {
+        "commonUses": [
+            "Hamburger bun toppings",
+            "Tahini paste",
+            "Salad crunches"
+        ],
+        "ingredientAwareness": "Tiny seeds that add nutty flavor and are well tolerated in standard culinary amounts."
+    },
+    "shredded-coconut": {
+        "commonUses": [
+            "Baking macaroons",
+            "Curry toppings",
+            "Granola mixes"
+        ],
+        "ingredientAwareness": "Dried coconut flakes provide texture; check for added sugar or preservatives."
+    },
+    "silken-tofu": {
+        "commonUses": [
+            "Vegan dessert blending",
+            "Smoothie thickness",
+            "Miso soups"
+        ],
+        "ingredientAwareness": "Unlike firm tofu, silken tofu retains its high moisture content and water-soluble oligosaccharides, requiring stricter portion monitoring."
+    },
+    "silverbeet": {
+        "commonUses": [
+            "Swiss chard side dishes",
+            "Savory pie fillings"
+        ],
+        "ingredientAwareness": "Leafy green chard that offers fantastic nutritional value and friendly low-FODMAP limits."
+    },
+    "smoked-paprika": {
+        "commonUses": [
+            "Spanish tapas seasoning",
+            "BBQ dry rubs"
+        ],
+        "ingredientAwareness": "Wood-smoke dried chili peppers providing deep smoky warmth safely."
+    },
+    "sorbitol-diet-drinks": {
+        "commonUses": [
+            "Sugar-free diet beverages"
+        ],
+        "ingredientAwareness": "Formulated specifically with sorbitol polyol sweeteners, making them direct laxative and IBS triggers."
+    },
+    "sorghum-flour": {
+        "commonUses": [
+            "Gluten-free bread baking",
+            "Pancake mixes"
+        ],
+        "ingredientAwareness": "An ancient whole-grain cereal flour that provides a smooth texture for sensitive stomachs."
+    },
+    "sour-cream": {
+        "commonUses": [
+            "Baked potato toppings",
+            "Mexican taco dollops",
+            "Dip bases"
+        ],
+        "ingredientAwareness": "Cultured dairy cream containing moderate lactose; standard 2-tablespoon portions are often tolerated."
+    },
+    "sourdough-bread": {
+        "commonUses": [
+            "Artisan toast",
+            "Avocado toast bases"
+        ],
+        "ingredientAwareness": "Traditional long-fermentation sourdough (authentic wheat or spelt crafted over 12+ hours) allows beneficial bacteria to break down and consume the wheat fructans, making it remarkably well tolerated."
+    },
+    "soy-flour": {
+        "commonUses": [
+            "Gluten-free protein baking"
+        ],
+        "ingredientAwareness": "Milled from whole soybeans, concentrating high GOS and oligosaccharide levels."
+    },
+    "soy-milk-from-soy-protein": {
+        "commonUses": [
+            "Vegan coffee creaming",
+            "Cereal bowls"
+        ],
+        "ingredientAwareness": "Soy milks manufactured using soy *protein isolate* (rather than whole soybeans) filter out the oligosaccharides, making them surprisingly low FODMAP."
+    },
+    "soy-sauce": {
+        "commonUses": [
+            "Asian stir-fry seasoning",
+            "Sushi dipping",
+            "Marinades"
+        ],
+        "ingredientAwareness": "Traditional brewed soy sauce uses wheat, but the fermentation process breaks down the gluten and fructans, making standard soy sauce low FODMAP in culinary amounts."
+    },
+    "soy-yoghurt": {
+        "commonUses": [
+            "Dairy-free breakfast bowls"
+        ],
+        "ingredientAwareness": "Check whether made from whole soybeans (high FODMAP) or isolated soy protein, and inspect for added inulin."
+    },
+    "soybeans": {
+        "commonUses": [
+            "Tofu and miso base production",
+            "Edamame"
+        ],
+        "ingredientAwareness": "Whole mature soybeans are exceptionally rich in GOS and require strict avoidance."
+    },
+    "spaghetti-squash": {
+        "commonUses": [
+            "Low-carb spaghetti vegetable alternatives"
+        ],
+        "ingredientAwareness": "Roasted strands of spaghetti squash offer a wonderful noodle alternative with friendly FODMAP limits."
+    },
+    "sparkling-wine": {
+        "commonUses": [
+            "Celebratory toasts",
+            "Champagne parties"
+        ],
+        "ingredientAwareness": "Dry sparkling wines (Brut) feature minimal residual sugar and are typically well tolerated in moderation."
+    },
+    "spelt-bread": {
+        "commonUses": [
+            "Artisan sandwich loaves"
+        ],
+        "ingredientAwareness": "Spelt is an ancient grain related to wheat; spelt sourdough has lower FODMAP levels than yeast-risen spelt bread."
+    },
+    "spelt-flour": {
+        "commonUses": [
+            "Baking breads and pastries"
+        ],
+        "ingredientAwareness": "Contains fructans; unfermented spelt flour requires careful portion management."
+    },
+    "spelt-pasta": {
+        "commonUses": [
+            "Dinner pasta dishes"
+        ],
+        "ingredientAwareness": "Provides an alternative wheat profile, though fructans remain present."
+    },
+    "spinach": {
+        "commonUses": [
+            "Salad bowl bases",
+            "Smoothie green boosters",
+            "Sautéed garlic-free sides"
+        ],
+        "ingredientAwareness": "Baby spinach leaves are nutrient-dense, refreshing, and completely low FODMAP in generous portions."
+    },
+    "split-peas": {
+        "commonUses": [
+            "Traditional split pea soups",
+            "Dahl dishes"
+        ],
+        "ingredientAwareness": "Dried field peas loaded with high GOS and oligosaccharide content."
+    },
+    "spring-onion-green-part": {
+        "commonUses": [
+            "Asian dish garnishes",
+            "Salad toppings",
+            "Savory sprinkle"
+        ],
+        "ingredientAwareness": "Fructans in scallions are concentrated in the white bulb, whereas the green leafy tops are uniquely low FODMAP and safe to use."
+    },
+    "star-anise": {
+        "commonUses": [
+            "Vietnamese pho broth simmering",
+            "Mulled wine spices"
+        ],
+        "ingredientAwareness": "Licorice-scented star seed pods that infuse aromatic flavor without adding FODMAPs."
+    },
+    "stevia": {
+        "commonUses": [
+            "Natural zero-calorie sweetening",
+            "Tea and coffee drops"
+        ],
+        "ingredientAwareness": "Plant-derived glycoside sweetener that does not impact FODMAP pathways; check that commercial drops lack polyol fillers (erythritol)."
+    },
+    "strawberry": {
+        "commonUses": [
+            "Fresh summer snacking",
+            "Pavlova toppings",
+            "Smoothies"
+        ],
+        "ingredientAwareness": "Strawberries have generous low-FODMAP serving thresholds, making them a safe berry choice."
+    },
+    "strawberry-jam": {
+        "commonUses": [
+            "Toast spreads",
+            "Sponge cake fillings"
+        ],
+        "iconAwareness": "Check commercial labels to ensure high-fructose corn syrup or apple juice concentrates have not been blended in."
+    },
+    "strong-chai-tea": {
+        "commonUses": [
+            "Spiced milk tea brews"
+        ],
+        "ingredientAwareness": "Concentrated black tea infusions combined with warming spices; check milk choice if adding dairy."
+    },
+    "strong-herbal-tea": {
+        "commonUses": [
+            "Herbal wellness drinks"
+        ],
+        "ingredientAwareness": "Steeping herbal leaves long can concentrate plant compounds; verify specific herb types (avoid chamomile/dandelion)."
+    },
+    "sugar-snap-peas": {
+        "commonUses": [
+            "Stir-fry pod crunches",
+            "Crudité platters"
+        ],
+        "ingredientAwareness": "Contain moderate levels of sorbitol and excess fructose; restrict serving amounts."
+    },
+    "sugar-free-chewing-gum": {
+        "commonUses": [
+            "Breath freshening"
+        ],
+        "ingredientAwareness": "Almost universally sweetened with polyols like xylitol, sorbitol, or mannitol—potent laxatives and IBS triggers."
+    },
+    "sultanas": {
+        "commonUses": [
+            "Baking fruit cakes",
+            "Porridge mix-ins"
+        ],
+        "ingredientAwareness": "Dried white grapes that concentrate excess fructose rapidly into small handfuls."
+    },
+    "sun-dried-tomatoes": {
+        "commonUses": [
+            "Pasta toss-ins",
+            "Focaccia toppings",
+            "Antipasto boards"
+        ],
+        "ingredientAwareness": "Dehydrated tomatoes concentrate natural sugars and fructans faster than fresh tomatoes; use strict portion controls."
+    },
+    "sunflower-seeds": {
+        "commonUses": [
+            "Seed bread baking",
+            "Salad crunch sprinkles"
+        ],
+        "ingredientAwareness": "Nutritious seeds that provide healthy fats and proteins with friendly low-FODMAP limits."
+    },
+    "swede": {
+        "commonUses": [
+            "Root vegetable mash",
+            "Winter stews"
+        ],
+        "ingredientAwareness": "Rutabaga root vegetable featuring moderate mannitol levels; monitor serving size."
+    },
+    "sweet-and-sour-sauce": {
+        "commonUses": [
+            "Asian stir-fry dipping",
+            "Chicken nugget sauces"
+        ],
+        "ingredientAwareness": "Commercial bottles frequently combine high-fructose corn syrup, pineapple juice, onion, and garlic."
+    },
+    "sweet-corn": {
+        "commonUses": [
+            "Corn cob eating",
+            "Salad corn kernels"
+        ],
+        "ingredientAwareness": "Fresh sweet corn cobs contain high amounts of sorbitol and excess fructose, restricting safe portions to small kernel amounts."
+    },
+    "swiss-cheese": {
+        "commonUses": [
+            "Sandwich melts",
+            "Cheese platters"
+        ],
+        "ingredientAwareness": "Aged Swiss-style cheeses naturally feature minimal residual lactose."
+    },
+    "table-sugar": {
+        "commonUses": [
+            "Universal baking sweetener",
+            "Coffee sweetening"
+        ],
+        "ingredientAwareness": "Pure white granulated sucrose (cane or beet sugar) consists of equal parts glucose and fructose, making it chemically balanced and low FODMAP."
+    },
+    "tahini": {
+        "commonUses": [
+            "Hummus base pastes",
+            "Falafel drizzles",
+            "Salad dressings"
+        ],
+        "ingredientAwareness": "Made from crushed sesame seeds; pure tahini is low FODMAP and adds rich creamy texture."
+    },
+    "tamari": {
+        "commonUses": [
+            "Gluten-free soy sauce alternative",
+            "Marinades"
+        ],
+        "ingredientAwareness": "Traditional Japanese tamari is brewed without wheat, making it naturally gluten-free and low FODMAP."
+    },
+    "tamarillo": {
+        "commonUses": [
+            "Tree tomato stewing",
+            "Savory chutneys"
+        ],
+        "ingredientAwareness": "Tart egg-shaped tropical fruits requiring careful sugar pairing."
+    },
+    "tangelo": {
+        "commonUses": [
+            "Fresh citrus snacking"
+        ],
+        "ingredientAwareness": "Mandarin-pomelo hybrid citrus fruit with moderate fructose accumulation."
+    },
+    "tapioca": {
+        "commonUses": [
+            "Bubble tea pearls",
+            "Pudding thickening"
+        ],
+        "ingredientAwareness": "Starchy root extract from cassava, providing an exceptionally gentle, low-FODMAP thickener."
+    },
+    "tapioca-flour": {
+        "commonUses": [
+            "Gluten-free baking mixes",
+            "Chewy mochi dough"
+        ],
+        "ingredientAwareness": "Smooth starch flour that adds elasticity to gluten-free bread structures."
+    },
+    "taro": {
+        "commonUses": [
+            "Taro bubble tea",
+            "Boiled root vegetable sides",
+            "Crispy taro chips"
+        ],
+        "ingredientAwareness": "Starchy tropical tuber that serves as a great yam-like alternative for sensitive digestive systems."
+    },
+    "tea-black": {
+        "commonUses": [
+            "Morning breakfast tea",
+            "Earl Grey brews"
+        ],
+        "ingredientAwareness": "Plain black tea infusions are completely low FODMAP."
+    },
+    "teff-flour": {
+        "commonUses": [
+            "Ethiopian injera flatbread baking",
+            "Gluten-free cookies"
+        ],
+        "ingredientAwareness": "Tiny ancient grain flour loaded with iron and fiber while remaining low FODMAP."
+    },
+    "tempeh": {
+        "commonUses": [
+            "Vegan burger patties",
+            "Indonesian protein stir-fries"
+        ],
+        "ingredientAwareness": "Fermented whole soybean cake; the fungal fermentation process breaks down many of the oligosaccharides, making tempeh much easier on the gut than plain soybeans."
+    },
+    "tequila": {
+        "commonUses": [
+            "Margarita cocktails",
+            "Spirits"
+        ],
+        "ingredientAwareness": "Distilled agave spirit; ensure 100% blue agave content and watch out for high-fructose cocktail mixers."
+    },
+    "thickened-cream": {
+        "commonUses": [
+            "Whipped dessert toppings",
+            "Sauce enrichment"
+        ],
+        "ingredientAwareness": "Contains dairy lactose alongside stabilizing gums; use mindful portion controls."
+    },
+    "thyme-fresh": {
+        "commonUses": [
+            "Roast chicken herb bunches",
+            "Soup flavoring"
+        ],
+        "ingredientAwareness": "Fresh woody herb sprigs providing aromatic depth without FODMAP issues."
+    },
+    "tomato": {
+        "commonUses": [
+            "Fresh salad slices",
+            "Sandwich layers",
+            "Sauce bases"
+        ],
+        "ingredientAwareness": "Common beefsteak and Roma tomatoes have generous low-FODMAP serving limits before fructose begins to accumulate."
+    },
+    "tomato-paste": {
+        "commonUses": [
+            "Rich pasta sauce foundations",
+            "Stew flavor boosts"
+        ],
+        "ingredientAwareness": "Concentrated tomato solids; because tomatoes concentrate during reduction, portion sizes matter."
+    },
+    "tomato-sauce": {
+        "commonUses": [
+            "Ketchup condiment",
+            "Burger toppings",
+            "BBQ pairings"
+        ],
+        "ingredientAwareness": "Commercial tomato ketchups frequently blend tomato paste with high-fructose corn syrup, onion, and garlic powders."
+    },
+    "tortilla-wrap": {
+        "commonUses": [
+            "Burrito lunches",
+            "Quesadillas"
+        ],
+        "ingredientAwareness": "Traditional wheat flour tortillas deliver high fructan loads; opt for certified 100% corn tortillas or certified low-FODMAP GF wraps."
+    },
+    "tropical-juice": {
+        "commonUses": [
+            "Fruit punch drinks",
+            "Cocktails"
+        ],
+        "ingredientAwareness": "Blends multiple high-fructose tropical fruits (mango, guava, passionfruit), making it a concentrated IBS trigger."
+    },
+    "truffle-oil": {
+        "commonUses": [
+            "Gourmet pasta finishing",
+            "Fries seasoning"
+        ],
+        "ingredientAwareness": "Infused oil; pure olive or vegetable oil bases infused with truffle aroma are low FODMAP."
+    },
+    "tuna-canned": {
+        "commonUses": [
+            "Tuna salad sandwiches",
+            "Quick lunch protein bowls"
+        ],
+        "ingredientAwareness": "Pure canned tuna in spring water or oil contains zero carbohydrates or FODMAPs."
+    },
+    "turkey": {
+        "commonUses": [
+            "Roast turkey dinners",
+            "Deli sandwich slices"
+        ],
+        "ingredientAwareness": "Lean poultry that is completely safe when unprocessed; check pre-packaged deli meats for hidden garlic or broth fillers."
+    },
+    "turmeric-root": {
+        "commonUses": [
+            "Golden milk lattes",
+            "Curry spice coloring",
+            "Anti-inflammatory tonics"
+        ],
+        "ingredientAwareness": "Fresh rhizome root adding vibrant golden color and earthy flavor safely."
+    },
+    "turnip": {
+        "commonUses": [
+            "Root vegetable mashes",
+            "Boiled stew sides"
+        ],
+        "ingredientAwareness": "Mild white root vegetable that offers a lower-carb, low-FODMAP alternative to potatoes."
+    },
+    "udon-noodles": {
+        "commonUses": [
+            "Japanese noodle soup bowls",
+            "Stir-fries"
+        ],
+        "ingredientAwareness": "Thick wheat flour noodles high in fructans."
+    },
+    "vanilla-essence": {
+        "commonUses": [
+            "Baking flavor extracts",
+            "Custards and cakes"
+        ],
+        "ingredientAwareness": "Pure vanilla bean extract in alcohol/water is low FODMAP in standard baking drops."
+    },
+    "vanilla-yoghurt": {
+        "commonUses": [
+            "Breakfast yogurt bowls"
+        ],
+        "ingredientAwareness": "Standard dairy vanilla yogurts pack dairy lactose and added cane sugars."
+    },
+    "vegemite": {
+        "commonUses": [
+            "Toast spreading",
+            "Savory soup broths"
+        ],
+        "ingredientAwareness": "Yeast and vegetable extract spread; check labels for added onion or malt extracts."
+    },
+    "vegetable-oil": {
+        "commonUses": [
+            "Deep frying",
+            "Baking pans",
+            "General cooking"
+        ],
+        "ingredientAwareness": "Refined soybean, canola, or sunflower oils contain zero carbohydrates and are free of FODMAPs."
+    },
+    "venison": {
+        "commonUses": [
+            "Gourmet game meat dinners",
+            "Roasts"
+        ],
+        "ingredientAwareness": "Lean red game meat containing no carbohydrates."
+    },
+    "vinegar": {
+        "commonUses": [
+            "Salad dressings",
+            "Pickling brines",
+            "Cooking acidifiers"
+        ],
+        "ingredientAwareness": "White distilled, apple cider, and red wine vinegars are low FODMAP in standard culinary quantities."
+    },
+    "vodka": {
+        "commonUses": [
+            "Cocktail mixing"
+        ],
+        "ingredientAwareness": "Distilled spirit containing zero carbohydrates or fermentation residues."
+    },
+    "walnuts": {
+        "commonUses": [
+            "Baking brownies",
+            "Salad texture crunches",
+            "Nut mixes"
+        ],
+        "ingredientAwareness": "Tree nuts with wonderful gut tolerance and generous low-FODMAP serving sizes."
+    },
+    "wasabi": {
+        "commonUses": [
+            "Sushi accompaniments",
+            "Prawn cracker dips"
+        ],
+        "ingredientAwareness": "Real Japanese wasabi root is rare; commercial tubes frequently blend horseradish, mustard flour, and cornstarch, so check labels for hidden additives."
+    },
+    "water": {
+        "commonUses": [
+            "Hydration",
+            "Cooking liquid base"
+        ],
+        "ingredientAwareness": "Essential zero-calorie hydration with zero FODMAP components."
+    },
+    "watercress": {
+        "commonUses": [
+            "Peppery salad greens",
+            "Soup garnishes"
+        ],
+        "ingredientAwareness": "Nutrient-packed aquatic leafy greens with friendly low-FODMAP limits."
+    },
+    "watermelon": {
+        "commonUses": [
+            "Summer fruit platters",
+            "Juice refreshing"
+        ],
+        "ingredientAwareness": "Watermelon is exceptionally high in free fructose and mannitol, making it a major IBS trigger food."
+    },
+    "weak-chai-tea": {
+        "commonUses": [
+            "Light spiced tea cups"
+        ],
+        "ingredientAwareness": "Brewed with a short steeping time to keep spice and black tea concentrations low."
+    },
+    "wheat-based-pie": {
+        "commonUses": [
+            "Meat pies",
+            "Bakery lunches"
+        ],
+        "ingredientAwareness": "Heavy wheat pastry crusts combined with meat fillings seasoned with onion and garlic."
+    },
+    "wheat-biscuit-cereal": {
+        "commonUses": [
+            "Breakfast cereal bricks"
+        ],
+        "ingredientAwareness": "Whole wheat cereal biscuits packed with concentrated fructans."
+    },
+    "wheat-bran": {
+        "commonUses": [
+            "High-fiber baking",
+            "Muffin top boosts"
+        ],
+        "ingredientAwareness": "The outer husk of the wheat grain loaded with fructans."
+    },
+    "wheat-crackers": {
+        "commonUses": [
+            "Cheese platters",
+            "Snack dipping"
+        ],
+        "ingredientAwareness": "Baked snack crackers crafted from refined or whole wheat flour."
+    },
+    "wheat-flour": {
+        "commonUses": [
+            "Baking bread, cakes, and pastries",
+            "Gravy thickening"
+        ],
+        "ingredientAwareness": "The primary source of dietary fructans in Western cooking."
+    },
+    "wheat-germ-raw": {
+        "commonUses": [
+            "Nutritional smoothie boosts"
+        ],
+        "ingredientAwareness": "The nutrient-dense embryo of the wheat kernel; high in fructans."
+    },
+    "wheat-grain-sprouted": {
+        "commonUses": [
+            "Sprouted grain bread baking"
+        ],
+        "ingredientAwareness": "Sprouting can reduce some short-chain carbs, but wheat grain still delivers notable fructan loads."
+    },
+    "wheat-pasta": {
+        "commonUses": [
+            "Italian spaghetti and fettuccine dinners"
+        ],
+        "ingredientAwareness": "Traditional durum wheat pasta is high in fructans."
+    },
+    "wheatgrass-powder": {
+        "commonUses": [
+            "Green detox smoothie shots"
+        ],
+        "ingredientAwareness": "Dehydrated young wheat grass juice powder; check individual tolerance levels."
+    },
+    "whipped-cream": {
+        "commonUses": [
+            "Dessert toppings",
+            "Hot chocolate dollops"
+        ],
+        "ingredientAwareness": "Whipped dairy cream contains modest lactose; keep portion sizes moderate."
+    },
+    "whiskey": {
+        "commonUses": [
+            "Evening sipping",
+            "Cocktail crafting"
+        ],
+        "ingredientAwareness": "Distilled grain spirit; distillation removes the grain's fructans, leaving pure whiskey low FODMAP."
+    },
+    "white-bread": {
+        "commonUses": [
+            "Sandwich loaves",
+            "Toast slices"
+        ],
+        "ingredientAwareness": "Standard white bread is baked from wheat flour, delivering high fructan levels unless specifically certified as low-FODMAP sourdough."
+    },
+    "white-chocolate": {
+        "commonUses": [
+            "Confectionery baking",
+            "Dessert drizzles"
+        ],
+        "imageAwareness": "Combines cocoa butter, sugar, and milk solids; check lactose content based on portion size."
+    },
+    "white-rice": {
+        "commonUses": [
+            "Curry side dishes",
+            "Rice bowls",
+            "Congee"
+        ],
+        "ingredientAwareness": "Jasmine, long-grain, and white rice are exceptionally easy to digest and remain a fundamental low-FODMAP pantry staple."
+    },
+    "rocket": {
+        "commonUses": [
+            "Peppery salad greens",
+            "Pizza toppings"
+        ],
+        "ingredientAwareness": "Arugula (rocket) leaves provide pungent peppery flavor and are completely low FODMAP."
+    },
+    "roma-tomatoes": {
+        "commonUses": [
+            "Italian sauce making",
+            "Salad slicing"
+        ],
+        "ingredientAwareness": "Plum tomatoes with established low-FODMAP serving sizes before fructose accumulates."
+    },
+    "rooibos-tea": {
+        "commonUses": [
+            "Caffeine-free red bush tea infusions"
+        ],
+        "ingredientAwareness": "South African herbal tea that is naturally caffeine-free and low FODMAP."
+    },
+    "rosemary-fresh": {
+        "commonUses": [
+            "Roast lamb herb sprigs",
+            "Focaccia bread toppings"
+        ],
+        "ingredientAwareness": "Woody Mediterranean herb needles adding aromatic flavor safely."
+    },
+    "rum": {
+        "commonUses": [
+            "Cocktail mixing",
+            "Baking rum balls"
+        ],
+        "ingredientAwareness": "Distilled sugarcane spirit; pure light or dark rum is low FODMAP."
+    },
+    "white-wine": {
+        "commonUses": [
+            "Dinner cooking reductions",
+            "Sipping white wine"
+        ],
+        "ingredientAwareness": "Dry white wines (Sauvignon Blanc, Pinot Grigio) contain minimal residual sugar and are well tolerated in standard glasses."
+    },
+    "whole-soy-milk": {
+        "commonUses": [
+            "Vegan coffee and cereal pouring"
+        ],
+        "ingredientAwareness": "Unlike soy milk made from isolated protein, milk brewed directly from whole soybeans is high in GOS."
+    },
+    "wholegrain-bread": {
+        "commonUses": [
+            "Fiber-rich sandwich loaves"
+        ],
+        "ingredientAwareness": "Baked from mixed whole grains containing heavy wheat and barley fructan loads."
+    },
+    "wholemeal-bread": {
+        "commonUses": [
+            "Whole wheat toast"
+        ],
+        "ingredientAwareness": "Dense whole wheat flour bread rich in fructans and insoluble fiber."
+    },
+    "worcester-sauce": {
+        "commonUses": [
+            "Marinade flavor enhancements",
+            "Caesar dressing drops"
+        ],
+        "ingredientAwareness": "Fermented condiment liquid; check labels for hidden garlic, onion, and molasses ingredients."
+    },
+    "xylitol": {
+        "commonUses": [
+            "Sugar-free gum sweetening",
+            "Dental mints"
+        ],
+        "ingredientAwareness": "A sugar alcohol (polyol) sweetener that acts as a strong osmotic laxative and triggers severe IBS symptoms."
+    },
+    "yam": {
+        "commonUses": [
+            "African yam stews",
+            "Roast vegetable sides"
+        ],
+        "electronAwareness": "True yams are starchy tubers; ensure they are not confused with sweet potatoes (kumara)."
+    },
+    "yam-flour": {
+        "commonUses": [
+            "Traditional West African fufu dough"
+        ],
+        "ingredientAwareness": "Milled true yam flour providing starchy carbohydrate bases."
+    },
+    "yardlong-bean": {
+        "commonUses": [
+            "Asian stir-fry green beans"
+        ],
+        "ingredientAwareness": "Long green beans containing moderate oligosaccharides; monitor portion weights."
+    },
+    "yeast-dried": {
+        "commonUses": [
+            "Bread baking",
+            "Pizza dough rising"
+        ],
+        "ingredientAwareness": "Active dry baking yeast is used to leaven bread; pure yeast does not introduce FODMAPs."
+    },
+    "zucchini": {
+        "commonUses": [
+            "Sautéed vegetable sides",
+            "Zucchini noodle zoodles",
+            "Baking moist cakes"
+        ],
+        "ingredientAwareness": "Courgette/zucchini is a versatile green squash with wonderful low-FODMAP serving allowances before minor polyols accumulate."
+    }
+}

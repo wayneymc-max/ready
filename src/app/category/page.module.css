@@ -2,16 +2,351 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
+    width: 100%;
+    background: #ffffff;
+    color: #303b34;
 }
 
-/* Footer */
+/* TOP NAVIGATION */
+
+.topNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 8px 16px;
+    margin: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #edf1ed;
+}
+
+.homeLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #53645a;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.homeLink:hover {
+    color: #245b3c;
+}
+
+.navLogo {
+    display: block;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+/* SHARED SECTION STYLES */
+
+.eyebrow {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #43805c;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.sectionHeading {
+    max-width: 720px;
+    margin: 0 auto 38px;
+    text-align: center;
+}
+
+.sectionHeading h2 {
+    margin: 0 0 13px;
+    color: #263d30;
+    font-size: clamp(1.7rem, 3vw, 2.3rem);
+    line-height: 1.25;
+    letter-spacing: -0.7px;
+}
+
+.sectionHeading p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #66736b;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* INTRODUCTION */
+
+.introSection {
+    width: 100%;
+    padding: 65px 24px 60px;
+    background:
+        radial-gradient(circle at 90% 15%,
+            rgba(188, 218, 190, 0.35),
+            transparent 35%),
+        linear-gradient(135deg, #f0f7f0, #f8fbf7);
+    border-bottom: 1px solid #e7eee7;
+}
+
+.introContent {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.categoriesTitle {
+    max-width: 850px;
+    margin: 0 0 22px;
+    color: #263d30;
+    font-size: clamp(2rem, 4.5vw, 3.1rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1.3px;
+}
+
+.introText {
+    max-width: 850px;
+    margin: 0 0 15px;
+    color: #53645a;
+    font-size: 1.04rem;
+    line-height: 1.9;
+}
+
+.introNote {
+    margin-top: 26px;
+    padding: 17px 20px;
+    background: #ffffff;
+    border: 1px solid #dce9dc;
+    border-left: 4px solid #57946b;
+    border-radius: 10px;
+    color: #53645a;
+    font-size: 0.94rem;
+    line-height: 1.75;
+}
+
+.introNote strong {
+    color: #315b3e;
+}
+
+/* FOOD CATEGORIES */
+
+.categoriesSection {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 65px 25px 75px;
+}
+
+.categoriesSection> :global(*) {
+    width: 100%;
+}
+
+/* HOW TO USE THE GUIDE */
+
+.guideSection {
+    padding: 70px 25px 75px;
+    background: #f6f9f5;
+    border-top: 1px solid #edf1eb;
+    border-bottom: 1px solid #edf1eb;
+}
+
+.guideGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.guideCard {
+    padding: 27px 25px;
+    background: #ffffff;
+    border: 1px solid #e3ebe2;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(38, 61, 48, 0.04);
+}
+
+.stepNumber {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 19px;
+    background: #e8f3e9;
+    border-radius: 11px;
+    color: #36734b;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.guideCard h3 {
+    margin: 0 0 12px;
+    color: #2d4937;
+    font-size: 1.12rem;
+    line-height: 1.4;
+}
+
+.guideCard p {
+    margin: 0;
+    color: #66736b;
+    font-size: 0.94rem;
+    line-height: 1.8;
+}
+
+/* ABOUT FODMAP GUIDE */
+
+.aboutSection {
+    padding: 75px 25px;
+    background: #ffffff;
+}
+
+.aboutContent {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.aboutContent h2 {
+    margin: 0 0 22px;
+    color: #263d30;
+    font-size: clamp(1.8rem, 3vw, 2.3rem);
+    line-height: 1.3;
+}
+
+.aboutContent p {
+    margin: 0 0 17px;
+    color: #59685f;
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.aboutLink {
+    display: inline-block;
+    margin-top: 9px;
+    color: #34744b;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.aboutLink:hover {
+    color: #205b36;
+    text-decoration: underline;
+}
+
+/* FAQ */
+
+.faqSection {
+    padding: 75px 25px 80px;
+    background: #f6f9f5;
+    border-top: 1px solid #e9efe8;
+}
+
+.faqList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.faqItem {
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e2eae1;
+    border-radius: 12px;
+    transition: border-color 0.2s ease;
+}
+
+.faqItem[open] {
+    border-color: #a9c9ad;
+}
+
+.faqItem summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 19px 21px;
+    color: #2d4937;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    cursor: pointer;
+    list-style: none;
+}
+
+.faqItem summary::-webkit-details-marker {
+    display: none;
+}
+
+.faqItem summary::marker {
+    content: "";
+}
+
+.faqIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 29px;
+    height: 29px;
+    background: #eaf3e9;
+    border-radius: 50%;
+    color: #34744b;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+
+.faqItem[open] .faqIcon {
+    transform: rotate(45deg);
+}
+
+.faqItem>p {
+    margin: 0;
+    padding: 0 21px 20px;
+    color: #657168;
+    font-size: 0.94rem;
+    line-height: 1.85;
+}
+
+/* MEDICAL NOTICE */
+
+.medicalNotice {
+    max-width: 900px;
+    width: calc(100% - 50px);
+    margin: 65px auto;
+    padding: 27px 30px;
+    background: #fffaf0;
+    border: 1px solid #f0e3c5;
+    border-radius: 14px;
+}
+
+.medicalNotice h2 {
+    margin: 0 0 14px;
+    color: #70572a;
+    font-size: 1.25rem;
+}
+
+.medicalNotice p {
+    margin: 0 0 12px;
+    color: #74684f;
+    font-size: 0.93rem;
+    line-height: 1.8;
+}
+
+.medicalNotice p:last-child {
+    margin-bottom: 0;
+}
+
+/* FOOTER */
 
 .footer {
+    width: 100%;
     margin-top: auto;
     padding: 45px 8% 20px;
     background: #263d30;
-    color: #fff;
+    color: #ffffff;
 }
 
 .footerContent {
@@ -31,7 +366,7 @@
 .footerLogo {
     display: inline-block;
     margin-bottom: 12px;
-    color: #fff;
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
@@ -47,13 +382,13 @@
 .footerLinks {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 22px;
     padding-top: 8px;
 }
 
 .footerLinks a {
     color: #e0eae3;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -73,9 +408,128 @@
     text-align: center;
 }
 
-/* Mobile */
+/* TABLETS */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .guideGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .guideCard:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .footerContent {
+        gap: 25px;
+    }
+
+    .footerLinks {
+        max-width: 400px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .topNavigation {
+        padding: 8px 12px;
+    }
+
+    .navLogo {
+        width: 22px;
+        height: 22px;
+    }
+
+    .introSection {
+        padding: 43px 19px 40px;
+    }
+
+    .categoriesTitle {
+        font-size: 2rem;
+        letter-spacing: -0.8px;
+    }
+
+    .introText {
+        font-size: 0.94rem;
+        line-height: 1.8;
+    }
+
+    .introNote {
+        padding: 14px 15px;
+        font-size: 0.88rem;
+    }
+
+    .categoriesSection {
+        padding: 45px 14px 55px;
+    }
+
+    .sectionHeading {
+        margin-bottom: 28px;
+    }
+
+    .sectionHeading h2 {
+        font-size: 1.65rem;
+    }
+
+    .sectionHeading p {
+        font-size: 0.92rem;
+    }
+
+    .guideSection,
+    .faqSection {
+        padding: 50px 16px 55px;
+    }
+
+    .guideGrid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .guideCard:last-child {
+        grid-column: auto;
+    }
+
+    .guideCard {
+        padding: 22px;
+    }
+
+    .aboutSection {
+        padding: 55px 20px;
+    }
+
+    .aboutContent h2 {
+        font-size: 1.75rem;
+    }
+
+    .aboutContent p {
+        font-size: 0.94rem;
+    }
+
+    .faqItem summary {
+        padding: 16px;
+        gap: 12px;
+        font-size: 0.92rem;
+    }
+
+    .faqItem>p {
+        padding: 0 16px 17px;
+        font-size: 0.88rem;
+    }
+
+    .medicalNotice {
+        width: calc(100% - 32px);
+        margin: 40px auto;
+        padding: 21px 18px;
+    }
+
+    .medicalNotice h2 {
+        font-size: 1.12rem;
+    }
+
+    .medicalNotice p {
+        font-size: 0.87rem;
+    }
+
     .footer {
         padding: 35px 22px 18px;
     }
@@ -87,25 +541,6 @@
 
     .footerLinks {
         flex-direction: column;
-        gap: 16px;
-    }
-}
-
-.categoriesTitle {
-    width: 100%;
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #263b32;
-    margin: 0 0 24px;
-    letter-spacing: -0.5px;
-    align-self: center;
-    padding-top: 20px;
-}
-
-@media (max-width: 600px) {
-    .categoriesTitle {
-        font-size: 1.45rem;
-        margin-bottom: 18px;
+        gap: 15px;
     }
 }

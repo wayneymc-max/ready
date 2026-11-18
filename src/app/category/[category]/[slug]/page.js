@@ -1,52 +1,76 @@
+
+import Link from "next/link";
 import foods from "@/data/foods.json";
+import { getEnrichedFood } from "@/utils/foodUtils";
 import FoodSection from "@/components/foodSection";
 import Dialogue from "@/components/dialogue";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
+const SITE_URL = "https://fodmapguide.com";
+
+const categoryNames = {
+    fruits: "Fruits",
+    vegetables: "Vegetables",
+    "bread-cereals": "Bread & Cereals",
+    proteins: "Proteins",
+    dairies: "Dairy",
+    drinks: "Drinks",
+    "oils-fats": "Oils & Fats",
+    "nuts-seeds": "Nuts & Seeds",
+    snacks: "Snacks",
+    "condiments-spreads": "Condiments & Spreads",
+};
 
 export async function generateMetadata({ params }) {
     const { category, slug } = await params;
 
     const currentFood = foods.find(
-        (food) => food.category === category && food.slug === slug
+        food => food.category === category && food.slug === slug
     );
 
     if (!currentFood) {
         return {
-            title: "Food Not Found",
+            title: "Food Not Found | FODMAP Guide",
+            robots: {
+                index: false,
+                follow: false,
+            },
         };
     }
 
-    const canonicalUrl =
-        `/category/${category}/${slug}`;
+    const title = `${currentFood.name} FODMAP Information | FODMAP Guide`;
+    const description = currentFood.description ||
+        `Learn about the FODMAP classification and serving information for ${currentFood.name}.`;
 
-    const description =
-        currentFood.description ||
-        `Learn about ${currentFood.name}, including its FODMAP level and serving information.`;
+    const url = `https://fodmapguide.com/category/${category}/${slug}`;
 
     return {
-        title: currentFood.name,
+        title,
         description,
 
         alternates: {
-            canonical: canonicalUrl,
+            canonical: url,
         },
 
         openGraph: {
-            title: `${currentFood.name} | FODMAP Food Guide`,
+            title,
             description,
-            url: canonicalUrl,
+            url,
             type: "article",
-            siteName: "FODMAP Food Guide",
+            siteName: "FODMAP Guide",
         },
     };
 }
 
-
 export default async function FoodPage({ params }) {
     const { category, slug } = await params;
+
+    const categoryName = categoryNames[category];
+
+    if (!categoryName) {
+        notFound();
+    }
 
     const filtered = foods.filter(
         (food) => food.category === category
@@ -60,16 +84,50 @@ export default async function FoodPage({ params }) {
         notFound();
     }
 
+    // Use your existing utility to combine foods.json and extra.json
+    const enrichedFood = getEnrichedFood(currentFood);
+
+    if (!enrichedFood) {
+        notFound();
+    }
+
     return (
         <div className={styles.pageContainer}>
             <div className={styles.content}>
                 <FoodSection
                     filtered={filtered}
-                    categoryName={category}
+                    categoryName={categoryName}
                 />
+
+                <section className={styles.categoryInformation}>
+                    <h2>Understanding FODMAP Food Information</h2>
+
+                    <p>
+                        FODMAP classifications and serving-size
+                        information can help people understand the
+                        foods they are exploring. The information
+                        displayed in this guide is educational and
+                        should not replace individual dietary advice.
+                    </p>
+
+                    <p>
+                        For further information about FODMAP research
+                        and the low FODMAP diet, visit{" "}
+                        <a
+                            href="https://www.monashfodmap.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Monash University FODMAP
+                        </a>.
+                    </p>
+                </section>
             </div>
 
-            <Dialogue currentFood={currentFood} />
+            <Dialogue
+                currentFood={enrichedFood}
+                closeHref={`/category/${category}`}
+            />
 
             <footer className={styles.footer}>
                 <div className={styles.footerContent}>

@@ -3,7 +3,11 @@ import styles from "./page.module.css";
 
 export const metadata = {
     title: "Contact Us | FODMAP Guide",
-    description: "Get in touch with the FODMAP Guide team.",
+    description:
+        "Contact FODMAP Guide with questions, feedback, or suggestions about the website.",
+    alternates: {
+        canonical: "https://fodmapguide.com/contact",
+    },
 };
 
 export default function ContactPage() {

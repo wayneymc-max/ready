@@ -1,60 +1,46 @@
 
-'use client';
+"use client";
 
-import styles from './dialogue.module.css';
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useEffect, useCallback } from "react";
+import { useRouter } from "next/navigation";
+import styles from "./dialogue.module.css";
 
-export default function Dialogue({
-    currentFood,
-    isIntercepted = false,
-}) {
+export default function Dialogue({ currentFood, onClose, closeHref }) {
     const router = useRouter();
 
-    const closeDialogue = () => {
-        if (isIntercepted) {
-            router.back();
-        } else {
-            router.replace(`/category/${currentFood.category}`);
+    const handleClose = useCallback(() => {
+        // Preserve existing intercepted modal behavior
+        if (onClose) {
+            onClose();
+            return;
         }
-    };
 
-    // Prevent background scrolling without changing its width.
+        // Direct URL visit: return to category page
+        if (closeHref) {
+            router.replace(closeHref);
+        }
+    }, [onClose, closeHref, router]);
+
     useEffect(() => {
-        const scrollbarWidth =
-            window.innerWidth - document.documentElement.clientWidth;
-
-        const previousOverflow = document.body.style.overflow;
-        const previousOverscroll = document.body.style.overscrollBehavior;
-        const previousPaddingRight = document.body.style.paddingRight;
-
-        document.body.style.overflow = 'hidden';
-        document.body.style.overscrollBehavior = 'none';
-
-        if (scrollbarWidth > 0) {
-            document.body.style.paddingRight = `${scrollbarWidth}px`;
-        }
+        if (!currentFood) return;
 
         const handleKeyDown = (event) => {
-            if (event.key === 'Escape') {
-                closeDialogue();
+            if (event.key === "Escape") {
+                handleClose();
             }
         };
 
-        window.addEventListener('keydown', handleKeyDown);
+        window.addEventListener("keydown", handleKeyDown);
 
         return () => {
-            document.body.style.overflow = previousOverflow;
-            document.body.style.overscrollBehavior = previousOverscroll;
-            document.body.style.paddingRight = previousPaddingRight;
-
-            window.removeEventListener('keydown', handleKeyDown);
+            window.removeEventListener("keydown", handleKeyDown);
         };
-    }, [currentFood, isIntercepted]);
+    }, [currentFood, handleClose]);
 
     if (!currentFood) return null;
 
-    const level = currentFood.overallFodmapLevel?.toLowerCase();
+    const level =
+        currentFood.overallFodmapLevel?.toLowerCase() || "unknown";
 
     const colors = {
         low: styles.low,
@@ -63,33 +49,25 @@ export default function Dialogue({
     };
 
     const levelText = {
-        low: 'low FODMAP',
-        medium: 'medium FODMAP',
-        high: 'high FODMAP',
+        low: "Low FODMAP",
+        medium: "Medium FODMAP",
+        high: "High FODMAP",
     };
 
-    const servings = [
-        {
-            label: 'Low',
-            value: currentFood.lowFodmapServing,
-            color: styles.lowServing,
-        },
-        {
-            label: 'Medium',
-            value: currentFood.mediumFodmapServing,
-            color: styles.mediumServing,
-        },
-        {
-            label: 'High',
-            value: currentFood.highFodmapServing,
-            color: styles.highServing,
-        },
-    ].filter((serving) => serving.value);
+    const sections = currentFood.sections || {};
+
+    const servings =
+        sections.servingSizeInformation?.filter(
+            (serving) =>
+                serving.amount !== null &&
+                serving.amount !== undefined &&
+                serving.amount !== ""
+        ) || [];
 
     return (
         <div
             className={styles.dialogueOverlay}
-            onClick={closeDialogue}
+            onClick={handleClose}
         >
             <div
                 className={styles.dialogueContainer}
@@ -102,23 +80,21 @@ export default function Dialogue({
 
                 <div className={styles.dialogueHeader}>
                     <div
-                        className={`${styles.levelSquare} ${colors[level] || ''}`}
-                    ></div>
+                        className={`${styles.levelSquare} ${colors[level] || ""}`}
+                    />
 
                     <h2
                         id="food-title"
                         className={styles.dialogueTitle}
                     >
-                        {currentFood.name.toLowerCase().endsWith('s')
-                            ? 'Are'
-                            : 'Is'}{' '}
-                        {currentFood.name} high in FODMAPs?
+                        {currentFood.name} FODMAP Information
                     </h2>
 
                     <button
+                        type="button"
                         className={styles.closeButton}
-                        onClick={closeDialogue}
-                        aria-label="Close"
+                        onClick={handleClose}
+                        aria-label="Close dialogue"
                     >
                         &times;
                     </button>
@@ -136,25 +112,24 @@ export default function Dialogue({
 
                         <div className={styles.foodInfo}>
                             <span
-                                className={`${styles.levelBadge} ${colors[level] || ''}`}
+                                className={`${styles.levelBadge} ${colors[level] || ""}`}
                             >
-                                {levelText[level] || 'Unknown FODMAP level'}
+                                {levelText[level] || "Unknown FODMAP level"}
                             </span>
 
-                            <p className={styles.levelDescription}>
-                                This food is currently classified as{' '}
-                                <strong>
-                                    {levelText[level] || 'unknown FODMAP'}
-                                </strong>{' '}
-                                in this guide.
-                            </p>
+                            {sections.understandingRating?.summary && (
+                                <p className={styles.levelDescription}>
+                                    {sections.understandingRating.summary}
+                                </p>
+                            )}
 
-                            {currentFood.description && (
+                            {sections.overview && (
                                 <div className={styles.foodNote}>
                                     <strong className={styles.noteTitle}>
-                                        About this food
+                                        About {currentFood.name}
                                     </strong>
-                                    <p>{currentFood.description}</p>
+
+                                    <p>{sections.overview}</p>
                                 </div>
                             )}
                         </div>
@@ -162,41 +137,95 @@ export default function Dialogue({
 
                     <div className={styles.servingsContainer}>
                         <h3 className={styles.servingsTitle}>
-                            Serving Sizes
+                            Serving Size Information
                         </h3>
 
                         {servings.length > 0 ? (
                             <div className={styles.servingsList}>
-                                {servings.map((serving) => (
-                                    <div
-                                        key={serving.label}
-                                        className={styles.servingRow}
-                                    >
-                                        <span
-                                            className={`${styles.servingLabel} ${serving.color}`}
-                                        >
-                                            {serving.label}
-                                        </span>
+                                {servings.map((serving) => {
+                                    const servingColors = {
+                                        "Low FODMAP": styles.lowServing,
+                                        "Medium FODMAP": styles.mediumServing,
+                                        "High FODMAP": styles.highServing,
+                                    };
 
-                                        <span className={styles.servingValue}>
-                                            {serving.value}
-                                        </span>
-                                    </div>
-                                ))}
+                                    return (
+                                        <div
+                                            key={serving.level}
+                                            className={styles.servingRow}
+                                        >
+                                            <span
+                                                className={`${styles.servingLabel} ${servingColors[serving.level] || ""}`}
+                                            >
+                                                {serving.level}
+                                            </span>
+
+                                            <span className={styles.servingValue}>
+                                                {serving.amount}
+                                            </span>
+                                        </div>
+                                    );
+                                })}
                             </div>
                         ) : (
                             <p className={styles.noServingInfo}>
-                                Serving-size information is currently
-                                unavailable for this food.
+                                Serving-size information is not currently
+                                available for this food.
                             </p>
                         )}
                     </div>
 
-                    <p className={styles.disclaimer}>
-                        FODMAP content may vary depending on ingredients,
-                        preparation and serving size. Individual tolerance
-                        may differ.
-                    </p>
+                    {sections.commonUses?.length > 0 && (
+                        <div
+                            className={`${styles.infoCard} ${styles.stackedInfoCard}`}
+                        >
+                            <div>
+                                <h3>Common Uses</h3>
+
+                                <ul>
+                                    {sections.commonUses.map((use, index) => (
+                                        <li key={index}>{use}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+
+                    {sections.ingredientAwareness && (
+                        <div
+                            className={`${styles.infoCard} ${styles.stackedInfoCard}`}
+                        >
+                            <div>
+                                <h3>Ingredient Awareness</h3>
+                                <p>{sections.ingredientAwareness}</p>
+                            </div>
+                        </div>
+                    )}
+
+                    {sections.disclaimer && (
+                        <p className={styles.disclaimer}>
+                            {sections.disclaimer}
+                        </p>
+                    )}
+
+                    {sections.furtherReading?.url && (
+                        <div className={styles.foodNote}>
+                            <strong className={styles.noteTitle}>
+                                Further Reading
+                            </strong>
+
+                            <p>
+                                {sections.furtherReading.text}{" "}
+                                <a
+                                    href={sections.furtherReading.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {sections.furtherReading.linkText}
+                                </a>
+                            </p>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

@@ -1,10 +1,14 @@
 
 import styles from "./page.module.css";
 
+
 export const metadata = {
     title: "Privacy Policy | FODMAP Guide",
     description:
-        "Learn how FODMAP Guide handles visitor information, cookies, advertising, and privacy.",
+        "Read the FODMAP Guide privacy policy to understand how information is handled when you use this website.",
+    alternates: {
+        canonical: "https://fodmapguide.com/privacy-policy",
+    },
 };
 
 export default function PrivacyPolicy() {
